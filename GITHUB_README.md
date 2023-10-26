@@ -16,7 +16,7 @@ von einem Remote-Server (z. B. GitHub, GitLab, Bitbucket) auf den lokalen
 Computer. Dies ermöglicht, das gesamte Projekt und die dazugehörige
 Versionsgeschichte auf dem lokalen System zu haben, damit man an dem Projekt
 arbeiten, Änderungen vornehmen und Commits durchführen kann. Entwickler*innen
-sollten immer darauf achten die aktuellste Verison des Repositorys lokal
+sollten immer darauf achten die aktuellste Verison des Remote Repositorys lokal
 gespeichert zu haben, bevor sie Änderungen vornehmen.
 
 ## Unterschiedliche Arbeitsbereiche
@@ -24,8 +24,8 @@ gespeichert zu haben, bevor sie Änderungen vornehmen.
 Bei Git gibt es drei verschiedene Arbeitsbereiche.
 Der erste Bereich heißt Working Directory. In diesem Bereich bzw. Verzeichnis,
 befindet man sich aktuell und bearbeitet Dateien des Projektes. Dieser Bereich
-ist meist der lokale Arbeitsort und sollte vorzugsweise nicht der Main-Branch,
-sondern ein eigener Branch sein.
+ist meist der lokale Arbeitsort und sollte vorzugsweise nicht dem Main-Branch,
+sondern einem eigenen Branch sein.
 Der zweite Bereich ist die Staging Area. In dieser werden alle aktuellen
 Änderungen geparkt, bevor sie commitet werden. Man kann Dateien stagen oder
 unstagen. Nur gestagte Änderungen können commitet werden.
@@ -40,7 +40,7 @@ Ein Git-Commit ist eine grundlegende Operation in Git und bezeichnet den
 Prozess, durch den man Änderungen am Quellcode oder an Dateien in einem
 Git-Repository dauerhaft in die Versionsgeschichte des Projekts aufnimmst,
 aber die Änderungen nur lokal speicherst. Um die Änderungen auch auf dem
-Remote Repository zu ändern, müssen diese erst gepushet werden. Es sollte
+Remote Repository zu ändern, müssen diese nach dem Commit gepushet werden. Es sollte
 niemals im Main-Branch commitet werden, um sicherzustellen, dass es zu
 keinen Verisonskonflikten oder anderen Problemen kommt. Besser ist es in einem
 seperaten Branch zu commiten und über eine Pull Request zu mergen.
