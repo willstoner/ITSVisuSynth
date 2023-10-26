@@ -65,7 +65,7 @@ in einen anderen integriert werden. Im Kontext von Pull Requests wird das
 Zusammenführen normalerweise nach einer erfolgreichen Codeüberprüfung und
 Diskussion durchgeführt.
 
-## Konsolen Befehle
+## Grundlegende Konsolen Befehle
 
 *Hinsweis: <> - Klammern werden in der Komandozeile nicht geschrieben. An der Stelle steht einfach der Name (z.B. Dateiname, Branch-Name).*
 
