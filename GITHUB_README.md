@@ -34,12 +34,14 @@ gesamte Commit-Historie gespeichert sind. Es enthält alle Branches, Tags und
 Commits in deinem Git-Projekt. Das Repository speichert alle Änderungen, die im
 Laufe der Zeit commitet werden.
 
-## Git Commit
+## Git Commit und Git Push
 
 Ein Git-Commit ist eine grundlegende Operation in Git und bezeichnet den
 Prozess, durch den man Änderungen am Quellcode oder an Dateien in einem
-Git-Repository dauerhaft in die Versionsgeschichte des Projekts aufnimmst. Es
-sollte niemals im Main-Branch commitet werden, um sicherzustellen, dass es zu
+Git-Repository dauerhaft in die Versionsgeschichte des Projekts aufnimmst,
+aber die Änderungen nur lokal speicherst. Um die Änderungen auch auf dem
+Remote Repository zu ändern, müssen diese erst gepushet werden. Es sollte
+niemals im Main-Branch commitet werden, um sicherzustellen, dass es zu
 keinen Verisonskonflikten oder anderen Problemen kommt. Besser ist es in einem
 seperaten Branch zu commiten und über eine Pull Request zu mergen.
 
@@ -64,4 +66,44 @@ Zusammenführen normalerweise nach einer erfolgreichen Codeüberprüfung und
 Diskussion durchgeführt.
 
 ## Konsolen Befehle
+
+*Hinsweis: <> - Klammern werden in der Komandozeile nicht geschrieben. An der Stelle steht einfach der Name (z.B. Dateiname, Branch-Name).*
+
+**git init**: Initialisiert ein neues Git-Repository in einem Verzeichnis.
+
+**git clone <URL>**: Klonen Sie ein Remote-Repository in ein lokales Verzeichnis.
+
+**git add <Dateiname>**: Fügt eine Datei oder Verzeichnis zur Staging-Area hinzu.
+
+**git add .** : Fügt alle Änderungen im aktuellen Verzeichnis zur Staging-Area hinzu.
+
+**git commit -m "Nachricht"**: Erstellt einen Commit mit den zuvor gestageten Änderungen und einer Commit-Nachricht.
+
+**git status**: Zeigt den Status der Arbeitskopie, einschließlich ungestageter Änderungen.
+
+**git log**: Zeigt eine Liste der Commits im aktuellen Branch an.
+
+**git branch**: Zeigt eine Liste der Branches im Repository an.
+
+**git checkout <Branch-Name>**: Wechselt zu einem anderen Branch.
+
+**git merge <Branch-Name>**: Fusioniert Änderungen aus einem anderen Branch in den aktuellen Branch.
+
+**git pull**: Holt Änderungen aus dem Remote-Repository und führt ein Merge aus.
+
+**git push**: Sendet lokale Commits an das Remote-Repository.
+
+**git remote -v**: Zeigt die URLs der Remote-Repositories an, die mit dem lokalen Repository verknüpft sind.
+
+**git diff**: Zeigt die Unterschiede zwischen Arbeitskopie und dem letzten Commit an.
+
+**git reset <Dateiname>**: Entfernt eine Datei aus der Staging-Area, ohne die Arbeitskopie zu ändern.
+
+**git reset --hard <Commit-ID>**: Setzt den Arbeitskopie und den Branch auf einen bestimmten Commit zurück.
+
+**git stash**: Versteckt vorübergehend ungestagete Änderungen, um an einem anderen Branch zu arbeiten.
+
+**git branch -d <Branch-Name>**: Löscht einen lokalen Branch.
+
+**git push origin --delete <Branch-Name>**: Löscht einen Remote-Branch.
 
