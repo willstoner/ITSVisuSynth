@@ -1,0 +1,8 @@
+\babel@toc {german}{}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{3}{}%
+\contentsline {section}{\numberline {2}Product Vision}{3}{}%
+\contentsline {section}{\numberline {3}Systembeschreibung}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Der granulare Synthesizer}{3}{}%
+\contentsline {subsection}{\numberline {3.2}Die Videoinstallation mit Touchdesigner}{4}{}%
+\contentsline {section}{\numberline {4}Roadmap}{5}{}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
