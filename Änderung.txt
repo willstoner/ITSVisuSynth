@@ -1,1 +1,3 @@
-Dies ist eine Änderung
+Das ist eine neue Änderung
+
+und sie wird weitergeführt.
