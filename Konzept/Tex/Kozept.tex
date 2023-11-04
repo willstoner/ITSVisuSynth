@@ -162,19 +162,31 @@ granularem Synthesizer
 
 \section{Einleitung}
 
-Im Rahmen des Kurses IT-Systeme soll ein interaktives Projekt entstehen, dass durch IT-Systeme realisiert ist. Dazu können die Studierenden Hard- und Software selbst auswählen und ihr eigenes Projekt entwickeln und umsetzen. Im Folgenden wird das Konzept des Projektes ''Visueller Synthesizer'' vorgestellt. 
+Im Rahmen des Kurses IT-Systeme soll ein interaktives Projekt entstehen, dass durch IT-Systeme realisiert ist. Dazu können die Studierenden Hard- und Software selbst auswählen und ihr eigenes Projekt entwickeln und umsetzen. Im Folgenden wird das Konzept des Projektes ''Visueller Synthesizer'' vorgestellt.\\\\
+Im Rahmen des Kurses für IT-Systeme entsteht ein interaktives Projekt. Studierende haben die Möglichkeit, sowohl Hard- als auch Software eigenständig auszuwählen, um ein individuelle Idee zu entwickeln und umzusetzen. Im Folgenden wird das Konzept des ''Visuellen Synthesizers'' präsentiert.
 
 \section{Product Vision}
-\lipsum[2]
+\begin{figure}[h]
+   \begin{minipage}[b]{.4\linewidth} % [b] => Ausrichtung an \caption
+      \includegraphics[width=\linewidth]{vision1}
+      \caption{KI generierte Projekt Vision}
+   \end{minipage}
+   \hspace{.1\linewidth}% Abstand zwischen Bilder
+   \begin{minipage}[b]{.4\linewidth} % [b] => Ausrichtung an \caption
+      \includegraphics[width=\linewidth]{vision2}
+      \caption{KI generierte Projekt Vision}
+   \end{minipage}
+\end{figure}
+\noindent Die Idee ist es, einen visuellen Synthesizer zu entwickeln, der kreativen Ausdruck und Interaktivität verbindet. Durch die nahtlose Integration von Audio- und Videoelementen soll dieses innovative System Nutzdenden die Möglichkeit geben, unabhängig von ihrem Erfahrungsgrad im Umgang mit Synthesizern und Videoanimation, in eine Welt voller künstlerischer Gestaltung einzutauchen. Dieser Synthesizer wird eine Vielzahl von Möglichkeiten bieten, um Klänge und visuelle Effekte miteinander zu verarbeiten. Unser Ziel ist es, eine Plattform zu schaffen, die Menschen dazu ermutigt, ihre Kreativität frei auszuleben und zugleich eine neue Dimension des audiovisuellen Schaffens zu erleben.\\\\
+Dieses Projekt soll nicht nur als eigenständiges System existieren, sondern auch als künstlerische Installation präsentiert werden. Wir möchten einen immersiven Raum schaffen. Dieser soll Menschen jeden Hintergrunds dazu einladen, aktiv an der Erzeugung von Klängen und visuellen Effekten teilzuhaben.
+
 \section{Systembeschreibung}
 
-Die Beschreibung des Systems soll helfen die Use-Cases und derer Umsetzung zu konkretisieren. Es werden die Anforderungen mithilfe der MoSCoW Methode aufgezeigt und die Bestandteile der Umsetzung durch ein Systemabbild dargestellt.
+Die Systembeschreibung dient der Konkretisierung der Use-Cases sowie ihrer Umsetzung. Dabei werden die Anforderungen mithilfe der MoSCoW-Methode erläutert und die Komponenten der Umsetzung durch ein Systemabbild dargestellt.
 
 \subsection{MoSCoW Priorisierung}
 
-Für das Projekt ist es am wichtigsten, dass die Produkt-Vision, demnach Audio und Video interaktiv zu gestalten, erfüllt wird. Viele weitere Funktionen sind dabei wünschenswert oder teilweise optional.
-Es soll versucht werden, das Produkt möglichst verständlich für Menschen zu machen, die kein Verständnis für Synthesizern oder Videoanimation haben. Die Bedienung soll intuitiv und simpel sein.
-
+Die Hauptpriorität des Projekts liegt in der Erfüllung der Produktvision, die darauf abzielt, Audio und Video interaktiv zu gestalten. Während zahlreiche weitere Funktionen wünschenswert oder teilweise optional sind, ist es entscheidend, das Produkt so zugänglich wie möglich für Personen zu gestalten, die keine Erfahrung mit Synthesizern oder Videoanimation haben. Die Bedienung soll intuitiv und benutzerfreundlich gestaltet sein.
 \begin{enumerate}[]
 \item \textbf{Must}
   \begin{enumerate}[-]
@@ -205,23 +217,25 @@ Es soll versucht werden, das Produkt möglichst verständlich für Menschen zu m
 
 \subsection{Der Systemaufbau}
 
-Die Nutzenden haben mehrere Bedienungsmöglichkeiten. Ein Mikrofon, dessen Aufnahmen als Grundlage für den \emph{Granular Synthesizer} genutzt werden, Knöpfe zum starten und stoppen der Aufnahme des Mikrofons, Potentiometer und Slider, die die Steuerung der Synthesizer-Parameter ermöglichen. Außerdem ein MIDI-Keyboard für die Pitch-Kontrolle des Synthesizers
-Es könnte auch eine Anzeige der Waveform geben, der von den Nutzdenden aufgenommenen Audiospur.\\\\
-Der Mikrocontroller und das Keyboard senden MIDI-Daten an einen Computer in dem die Audiosynthese der zuvor aufgenommenen Audiodatei stattfindet.Das daraus resultierende Audiosignal wird einerseits über Lautsprecher in den Raum gespielt, und andererseits mit den MIDI-Daten zusammen an TouchDesigner weitergeleitet. Audio und MIDI haben Einfluss auf die Visualisierung, welche über HDMI durch einen Beamer in den Raum  wird.
+Die Nutzenden haben verschiedene Bedienungsmöglichkeiten zur Verfügung. Dazu gehören ein Mikrofon, dessen Aufnahmen als Grundlage für den Granular-Synthesizer dienen, Knöpfe zum Starten und Stoppen der Mikrofonaufnahme, Potentiometer und Slider, die die Steuerung der Synthesizer-Parameter ermöglichen, sowie ein MIDI-Keyboard zur Tonhöhenkontrolle des Synthesizers.\\\\
+Zusätzlich könnte es eine Anzeige der aufgenommenen Audiospur in Form einer Waveform geben. Der Mikrocontroller und das Keyboard senden MIDI-Daten an einen Computer, auf dem die Audiosynthese der zuvor aufgenommenen Audiodatei stattfindet. Das resultierende Audiosignal wird zum einen über Lautsprecher im Raum wiedergegeben und zum anderen zusammen mit den MIDI-Daten an TouchDesigner weitergeleitet. Sowohl Audio als auch MIDI beeinflussen die Visualisierung, die über einen Beamer mittels HDMI in den Raum projiziert wird.
 \begin{center}
  \includegraphics[scale=0.43]{system_schaltbild_v1.png}
  \captionof{figure}{Blockschaltbild des kompletten Systems}
 \end{center}
 \newpage
 \subsection{Die Use Cases}
-ddd
+Eine Person tritt an die Installation heran und beginnt, Klänge durch die Verwendung des Mikrofons aufzunehmen. Mit den Poti's und Schiebereglern steuert die Person die Klang- und visuellen Effekte. Durch das MIDI-Keyboard werden die Töne gesteuert. Die aufgenommenen Audiospuren und manipulierten visuellen Effekte werden in Echtzeit wiedergegeben, sodass die Nutzenden eine unmittelbare kreative Interaktion erleben.
 \begin{center}
- \includegraphics[scale=0.5]{usecases.png}
+ \includegraphics[scale=0.4]{usecases2.png}
  \captionof{figure}{Usecase Diagramm des Projekts}
 \end{center}
-ddd
 \section{Roadmap}
-
-Die Roadmap soll einen zeitlichen Rahmen für das Projekt bieten. Es sind dort alle Projektwochen abgebildet und ein Ablaufplan ist konzipiert. Dieser kann sich während des Projektes gemäß des agilen Projektmanagements verändern.
+Die Roadmap bietet einen zeitlichen Rahmen für das Projekt. Sie enthält alle Projektwochen und einen konzipierten Ablaufplan. Dieser kann sich gemäß den Prinzipien des agilen Projektmanagements während des Projekts verändern.
+\newpage
+\begin{center}
+ \includegraphics[scale=0.45, angle=90]{Roadmap_v.2.png}
+ \captionof{figure}{Usecase Diagramm des Projekts}
+\end{center}
 
 \end{document}
