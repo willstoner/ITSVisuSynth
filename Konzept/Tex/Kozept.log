@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.28)  4 NOV 2023 14:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.28)  4 NOV 2023 18:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -403,7 +403,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 )
-Package color Info: Redefining color white on input line 104.
+Package color Info: Redefining color white on input line 103.
  (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 
@@ -469,7 +469,7 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 Package: wrapfig 2003/01/31  v 3.6
 )
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 12
-9.
+8.
 
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -477,20 +477,20 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 (Kozept.aux)
 \openout1 = `Kozept.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
 
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -518,52 +518,52 @@ fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-35.
+34.
  (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 <HAW_Marke_RGB_300dpi.jpg, id=1, 386.8854pt x 142.3719pt>
 File: HAW_Marke_RGB_300dpi.jpg Graphic file (type jpg)
 <use HAW_Marke_RGB_300dpi.jpg>
-Package pdftex.def Info: HAW_Marke_RGB_300dpi.jpg  used on input line 135.
+Package pdftex.def Info: HAW_Marke_RGB_300dpi.jpg  used on input line 134.
 (pdftex.def)             Requested size: 193.44223pt x 71.18576pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-35.
+34.
 
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-35.
+34.
 
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-135.
+134.
 
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-135.
+134.
 
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 135.
+(Font)              <17.28> on input line 134.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 135.
+(Font)              <12> on input line 134.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 135.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 135
+(Font)              <10> on input line 134.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 134
 .
 
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 135
+LaTeX Font Info:    Trying to load font information for U+msb on input line 134
 .
 
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -573,11 +573,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Warning: No \author given.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 140.
+(Font)              <8> on input line 139.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 140.
+(Font)              <6> on input line 139.
 
-Overfull \hbox (205.75905pt too wide) in paragraph at lines 140--152
+Overfull \hbox (205.75905pt too wide) in paragraph at lines 139--151
 []  
  []
 
@@ -591,48 +591,48 @@ i/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./HAW_Marke_RGB_
 \openout3 = `Kozept.toc'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 165--167
-
- []
-
 <vision1.jpg, id=14, 1027.84pt x 1027.84pt>
 File: vision1.jpg Graphic file (type jpg)
 <use vision1.jpg>
-Package pdftex.def Info: vision1.jpg  used on input line 171.
+Package pdftex.def Info: vision1.jpg  used on input line 169.
 (pdftex.def)             Requested size: 179.24963pt x 179.24734pt.
-<vision2.jpg, id=15, 1027.84pt x 1027.84pt>
-File: vision2.jpg Graphic file (type jpg)
-<use vision2.jpg>
-Package pdftex.def Info: vision2.jpg  used on input line 176.
+Class scrartcl Info: Workaround for not recommended usage of \\ or
+(scrartcl)           \newlinein caption text  on input line 170.
+<controller1.jpg, id=15, 1027.84pt x 1027.84pt>
+File: controller1.jpg Graphic file (type jpg)
+<use controller1.jpg>
+Package pdftex.def Info: controller1.jpg  used on input line 174.
 (pdftex.def)             Requested size: 179.24963pt x 179.24734pt.
+Class scrartcl Info: Workaround for not recommended usage of \\ or
+(scrartcl)           \newlinein caption text  on input line 175.
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--182
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
  []
 
-[3 <./vision1.jpg> <./vision2.jpg>]
+[3 <./vision1.jpg> <./controller1.jpg>]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 190.
-
-
-LaTeX Warning: The counter will not be printed.
-             The label is: - on input line 192.
+             The label is:  on input line 188.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is: - on input line 198.
+             The label is: - on input line 190.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is: - on input line 204.
+             The label is: - on input line 196.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is: - on input line 212.
+             The label is: - on input line 202.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--222
+LaTeX Warning: The counter will not be printed.
+             The label is: - on input line 210.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
 
  []
 
@@ -640,10 +640,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--222
 <system_schaltbild_v1.png, id=22, 1079.53313pt x 283.0575pt>
 File: system_schaltbild_v1.png Graphic file (type png)
 <use system_schaltbild_v1.png>
-Package pdftex.def Info: system_schaltbild_v1.png  used on input line 223.
+Package pdftex.def Info: system_schaltbild_v1.png  used on input line 221.
 (pdftex.def)             Requested size: 464.1902pt x 121.71234pt.
 
-Overfull \hbox (16.05925pt too wide) in paragraph at lines 223--224
+Overfull \hbox (16.05925pt too wide) in paragraph at lines 221--222
  [] 
  []
 
@@ -651,45 +651,50 @@ Overfull \hbox (16.05925pt too wide) in paragraph at lines 223--224
 <usecases2.png, id=28, 523.20468pt x 355.3275pt>
 File: usecases2.png Graphic file (type png)
 <use usecases2.png>
-Package pdftex.def Info: usecases2.png  used on input line 230.
+Package pdftex.def Info: usecases2.png  used on input line 228.
 (pdftex.def)             Requested size: 209.27815pt x 142.12846pt.
- [6 <./usecases2.png>]
-<Roadmap_v.2.png, id=33, 1699.85063pt x 355.3275pt>
-File: Roadmap_v.2.png Graphic file (type png)
-<use Roadmap_v.2.png>
-Package pdftex.def Info: Roadmap_v.2.png  used on input line 237.
-(pdftex.def)             Requested size: 764.92574pt x 159.89589pt.
-
-Overfull \vbox (162.62581pt too high) has occurred while \output is active []
-
-
-[7 <./Roadmap_v.2.png>]
+<road1.png, id=29, 1014.03844pt x 574.39594pt>
+File: road1.png Graphic file (type png)
+<use road1.png>
+Package pdftex.def Info: road1.png  used on input line 234.
+(pdftex.def)             Requested size: 405.60818pt x 229.75429pt.
+<road2.png, id=30, 1070.49937pt x 552.56438pt>
+File: road2.png Graphic file (type png)
+<use road2.png>
+Package pdftex.def Info: road2.png  used on input line 238.
+(pdftex.def)             Requested size: 428.19217pt x 221.02182pt.
+ [6 <./usecases2.png> <./road1.png>]
+<road3.png, id=36, 636.87938pt x 573.64313pt>
+File: road3.png Graphic file (type png)
+<use road3.png>
+Package pdftex.def Info: road3.png  used on input line 242.
+(pdftex.def)             Requested size: 254.74724pt x 229.45319pt.
 \tf@thm=\write4
 \openout4 = `Kozept.thm'.
 
- (Kozept.aux)
+ [7 <./road2.png> <./road3.png>] (Kozept.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-23>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 10183 strings out of 474718
- 217074 string characters out of 5748456
+ 10197 strings out of 474718
+ 217306 string characters out of 5748456
  1937036 words of memory out of 5000000
- 32095 multiletter control sequences out of 15000+600000
+ 32109 multiletter control sequences out of 15000+600000
  608102 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,19n,107p,10903b,531s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,19n,107p,10903b,529s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
 ><C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
 <C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb>
 <C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pf
 b>
-Output written on Kozept.pdf (7 pages, 797235 bytes).
+Output written on Kozept.pdf (7 pages, 797842 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
+ 66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
