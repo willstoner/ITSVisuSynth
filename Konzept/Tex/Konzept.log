@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.28)  4 NOV 2023 18:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.28)  4 NOV 2023 19:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./Kozept.tex
-(Kozept.tex
+**./Konzept.tex
+(Konzept.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-23>
 
@@ -474,8 +474,8 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 12
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-(Kozept.aux)
-\openout1 = `Kozept.aux'.
+(Konzept.aux)
+\openout1 = `Konzept.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
 LaTeX Font Info:    ... okay on input line 128.
@@ -586,9 +586,9 @@ Overfull \hbox (205.75905pt too wide) in paragraph at lines 139--151
 
 {C:/Users/denni/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/denn
 i/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./HAW_Marke_RGB_
-300dpi.jpg>] (Kozept.toc)
+300dpi.jpg>] (Konzept.toc)
 \tf@toc=\write3
-\openout3 = `Kozept.toc'.
+\openout3 = `Konzept.toc'.
 
  [2]
 <vision1.jpg, id=14, 1027.84pt x 1027.84pt>
@@ -670,9 +670,9 @@ File: road3.png Graphic file (type png)
 Package pdftex.def Info: road3.png  used on input line 242.
 (pdftex.def)             Requested size: 254.74724pt x 229.45319pt.
 \tf@thm=\write4
-\openout4 = `Kozept.thm'.
+\openout4 = `Konzept.thm'.
 
- [7 <./road2.png> <./road3.png>] (Kozept.aux)
+ [7 <./road2.png> <./road3.png>] (Konzept.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-23>
@@ -680,19 +680,19 @@ L3 programming layer <2023-10-23>
  ) 
 Here is how much of TeX's memory you used:
  10197 strings out of 474718
- 217306 string characters out of 5748456
+ 217324 string characters out of 5748456
  1937036 words of memory out of 5000000
  32109 multiletter control sequences out of 15000+600000
  608102 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,19n,107p,10903b,529s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,19n,107p,10904b,529s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
 ><C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
 <C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb>
 <C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pf
 b>
-Output written on Kozept.pdf (7 pages, 797842 bytes).
+Output written on Konzept.pdf (7 pages, 797842 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
