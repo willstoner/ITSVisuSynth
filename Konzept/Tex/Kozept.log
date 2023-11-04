@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.28)  4 NOV 2023 12:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.28)  4 NOV 2023 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -591,75 +591,105 @@ i/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./HAW_Marke_RGB_
 \openout3 = `Kozept.toc'.
 
  [2]
+Underfull \hbox (badness 10000) in paragraph at lines 165--167
+
+ []
+
+<vision1.jpg, id=14, 1027.84pt x 1027.84pt>
+File: vision1.jpg Graphic file (type jpg)
+<use vision1.jpg>
+Package pdftex.def Info: vision1.jpg  used on input line 171.
+(pdftex.def)             Requested size: 179.24963pt x 179.24734pt.
+<vision2.jpg, id=15, 1027.84pt x 1027.84pt>
+File: vision2.jpg Graphic file (type jpg)
+<use vision2.jpg>
+Package pdftex.def Info: vision2.jpg  used on input line 176.
+(pdftex.def)             Requested size: 179.24963pt x 179.24734pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--182
+
+ []
+
+[3 <./vision1.jpg> <./vision2.jpg>]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 178.
-
-
-LaTeX Warning: The counter will not be printed.
-             The label is: - on input line 180.
-
-
-LaTeX Warning: The counter will not be printed.
-             The label is: - on input line 186.
+             The label is:  on input line 190.
 
 
 LaTeX Warning: The counter will not be printed.
              The label is: - on input line 192.
 
-[3]
 
 LaTeX Warning: The counter will not be printed.
-             The label is: - on input line 200.
+             The label is: - on input line 198.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--211
+LaTeX Warning: The counter will not be printed.
+             The label is: - on input line 204.
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: - on input line 212.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--222
 
  []
 
-<system_schaltbild_v1.png, id=17, 1079.53313pt x 283.0575pt>
+[4]
+<system_schaltbild_v1.png, id=22, 1079.53313pt x 283.0575pt>
 File: system_schaltbild_v1.png Graphic file (type png)
 <use system_schaltbild_v1.png>
-Package pdftex.def Info: system_schaltbild_v1.png  used on input line 212.
+Package pdftex.def Info: system_schaltbild_v1.png  used on input line 223.
 (pdftex.def)             Requested size: 464.1902pt x 121.71234pt.
 
-Overfull \hbox (16.05925pt too wide) in paragraph at lines 212--213
+Overfull \hbox (16.05925pt too wide) in paragraph at lines 223--224
  [] 
  []
 
-[4 <./system_schaltbild_v1.png>]
-<usecases.png, id=24, 459.21562pt x 355.3275pt>
-File: usecases.png Graphic file (type png)
-<use usecases.png>
-Package pdftex.def Info: usecases.png  used on input line 219.
-(pdftex.def)             Requested size: 229.60724pt x 177.6633pt.
+[5 <./system_schaltbild_v1.png>]
+<usecases2.png, id=28, 523.20468pt x 355.3275pt>
+File: usecases2.png Graphic file (type png)
+<use usecases2.png>
+Package pdftex.def Info: usecases2.png  used on input line 230.
+(pdftex.def)             Requested size: 209.27815pt x 142.12846pt.
+ [6 <./usecases2.png>]
+<Roadmap_v.2.png, id=33, 1699.85063pt x 355.3275pt>
+File: Roadmap_v.2.png Graphic file (type png)
+<use Roadmap_v.2.png>
+Package pdftex.def Info: Roadmap_v.2.png  used on input line 237.
+(pdftex.def)             Requested size: 764.92574pt x 159.89589pt.
+
+Overfull \vbox (162.62581pt too high) has occurred while \output is active []
+
+
+[7 <./Roadmap_v.2.png>]
 \tf@thm=\write4
 \openout4 = `Kozept.thm'.
 
- [5 <./usecases.png>] (Kozept.aux)
+ (Kozept.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-23>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 10150 strings out of 474718
- 216408 string characters out of 5748456
- 1936036 words of memory out of 5000000
- 32061 multiletter control sequences out of 15000+600000
- 612364 words of font info for 75 fonts, out of 8000000 for 9000
+ 10183 strings out of 474718
+ 217074 string characters out of 5748456
+ 1937036 words of memory out of 5000000
+ 32095 multiletter control sequences out of 15000+600000
+ 608102 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,19n,107p,10903b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,19n,107p,10903b,531s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
 ><C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
-<C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
 <C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb>
 <C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pf
 b>
-Output written on Kozept.pdf (5 pages, 419304 bytes).
+Output written on Kozept.pdf (7 pages, 797235 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
