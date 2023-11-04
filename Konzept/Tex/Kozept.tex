@@ -161,28 +161,67 @@ granularem Synthesizer
 \newpage
 
 \section{Einleitung}
-\lipsum[1]
+
+Im Rahmen des Kurses IT-Systeme soll ein interaktives Projekt entstehen, dass durch IT-Systeme realisiert ist. Dazu können die Studierenden Hard- und Software selbst auswählen und ihr eigenes Projekt entwickeln und umsetzen. Im Folgenden wird das Konzept des Projektes ''Visueller Synthesizer'' vorgestellt. 
+
 \section{Product Vision}
 \lipsum[2]
 \section{Systembeschreibung}
-\lipsum[3]
-\subsection{Der granulare Synthesizer}
-\lipsum[4]
 
-\begin{wrapfigure}{r}{5cm}
-\includegraphics[width=5cm]{Gran1.jpg}
-\caption{gran1}\label{fig.1}
-\end{wrapfigure}
-\noindent \lipsum[5]
-\subsection{Die Videoinstallation mit Touchdesigner}
-\lipsum[6]
-\newpage
-\section{Roadmap}
-\lipsum[7]
+Die Beschreibung des Systems soll helfen die Use-Cases und derer Umsetzung zu konkretisieren. Es werden die Anforderungen mithilfe der MoSCoW Methode aufgezeigt und die Bestandteile der Umsetzung durch ein Systemabbild dargestellt.
+
+\subsection{MoSCoW Priorisierung}
+
+Für das Projekt ist es am wichtigsten, dass die Produkt-Vision, demnach Audio und Video interaktiv zu gestalten, erfüllt wird. Viele weitere Funktionen sind dabei wünschenswert oder teilweise optional.
+Es soll versucht werden, das Produkt möglichst verständlich für Menschen zu machen, die kein Verständnis für Synthesizern oder Videoanimation haben. Die Bedienung soll intuitiv und simpel sein.
+
+\begin{enumerate}[]
+\item \textbf{Must}
+  \begin{enumerate}[-]
+  \item Die Synthese der Audiospur wird verarbeitet.
+  \item Audiospur wird interaktiv durch die Nutzenden verändert.
+  \item Die Interaktion wird durch digitale Visualisierungen dargestellt.
+  \end{enumerate}
+\item \textbf{Should}
+  \begin{enumerate}[-]
+  \item Die Aufnahme am Mikrofon wird zur Verarbeitung gespeichert.
+  \item granulare Synthese mit den Parametern Grain Pitch, Grain Speed, Grain Scan und Reverb.
+  \item Visualisierungen werden durch TouchDesigner entwickelt und wiedergegeben.
+  \end{enumerate}
+\item \textbf{Could}
+  \begin{enumerate}[-]
+  \item Die Aufnahme am Mikrofon wird in Echtzeit verarbeitet.
+  \item Die entstandene Waveform der Audiospur kann für die Nutzenden angezeigt werden.
+  \item Der Audio-Pitch kann an einem MIDI-Keyboard gesteuert werden.
+  \item Es gibt mehrere Designs durch TouchDesigner.
+  \item Die Nutzenden können aus mehreren Designs selbst wählen.
+  \end{enumerate}
+\item \textbf{Won't}
+  \begin{enumerate}[-]
+  \item zu viele Ablenkungen des Users (zweite GUI, etc.)
+  \item zu komplexe Bedienung des Controllers für die Nutzenden.
+  \end{enumerate}
+\end{enumerate}
+
+\subsection{Der Systemaufbau}
+
+Die Nutzenden haben mehrere Bedienungsmöglichkeiten. Ein Mikrofon, dessen Aufnahmen als Grundlage für den \emph{Granular Synthesizer} genutzt werden, Knöpfe zum starten und stoppen der Aufnahme des Mikrofons, Potentiometer und Slider, die die Steuerung der Synthesizer-Parameter ermöglichen. Außerdem ein MIDI-Keyboard für die Pitch-Kontrolle des Synthesizers
+Es könnte auch eine Anzeige der Waveform geben, der von den Nutzdenden aufgenommenen Audiospur.\\\\
+Der Mikrocontroller und das Keyboard senden MIDI-Daten an einen Computer in dem die Audiosynthese der zuvor aufgenommenen Audiodatei stattfindet.Das daraus resultierende Audiosignal wird einerseits über Lautsprecher in den Raum gespielt, und andererseits mit den MIDI-Daten zusammen an TouchDesigner weitergeleitet. Audio und MIDI haben Einfluss auf die Visualisierung, welche über HDMI durch einen Beamer in den Raum  wird.
 \begin{center}
- \includegraphics[scale=0.15]{Roadmap.png}
- \captionof{figure}{RM}
+ \includegraphics[scale=0.43]{system_schaltbild_v1.png}
+ \captionof{figure}{Blockschaltbild des kompletten Systems}
 \end{center}
+\newpage
+\subsection{Die Use Cases}
+ddd
+\begin{center}
+ \includegraphics[scale=0.5]{usecases.png}
+ \captionof{figure}{Usecase Diagramm des Projekts}
+\end{center}
+ddd
+\section{Roadmap}
 
+Die Roadmap soll einen zeitlichen Rahmen für das Projekt bieten. Es sind dort alle Projektwochen abgebildet und ein Ablaufplan ist konzipiert. Dieser kann sich während des Projektes gemäß des agilen Projektmanagements verändern.
 
 \end{document}
