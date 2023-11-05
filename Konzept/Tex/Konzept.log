@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.28)  5 NOV 2023 16:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.28)  5 NOV 2023 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -577,7 +577,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 140.
 
-Overfull \hbox (205.75905pt too wide) in paragraph at lines 140--152
+Overfull \hbox (203.79991pt too wide) in paragraph at lines 140--152
 []  
  []
 
@@ -594,107 +594,115 @@ i/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./HAW_Marke_RGB_
 <vision1.jpg, id=14, 1027.84pt x 1027.84pt>
 File: vision1.jpg Graphic file (type jpg)
 <use vision1.jpg>
-Package pdftex.def Info: vision1.jpg  used on input line 168.
+Package pdftex.def Info: vision1.jpg  used on input line 167.
 (pdftex.def)             Requested size: 179.24963pt x 179.24734pt.
 Class scrartcl Info: Workaround for not recommended usage of \\ or
-(scrartcl)           \newlinein caption text  on input line 169.
-<controller1.jpg, id=15, 1027.84pt x 1027.84pt>
-File: controller1.jpg Graphic file (type jpg)
-<use controller1.jpg>
-Package pdftex.def Info: controller1.jpg  used on input line 173.
+(scrartcl)           \newlinein caption text  on input line 168.
+<controller2.jpg, id=15, 1027.84pt x 1027.84pt>
+File: controller2.jpg Graphic file (type jpg)
+<use controller2.jpg>
+Package pdftex.def Info: controller2.jpg  used on input line 172.
 (pdftex.def)             Requested size: 179.24963pt x 179.24734pt.
 Class scrartcl Info: Workaround for not recommended usage of \\ or
-(scrartcl)           \newlinein caption text  on input line 174.
+(scrartcl)           \newlinein caption text  on input line 173.
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--179
+Underfull \hbox (badness 10000) in paragraph at lines 176--178
 
  []
 
-[3 <./vision1.jpg> <./controller1.jpg>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 179.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 179.
+[3{C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <
+./vision1.jpg> <./controller2.jpg>]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 188.
-
-
-LaTeX Warning: The counter will not be printed.
-             The label is: - on input line 190.
-
-
-LaTeX Warning: The counter will not be printed.
-             The label is: - on input line 196.
+             The label is:  on input line 190.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is: - on input line 202.
+             The label is: - on input line 192.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is: - on input line 210.
+             The label is: - on input line 198.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
+LaTeX Warning: The counter will not be printed.
+             The label is: - on input line 204.
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: - on input line 212.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--222
 
  []
 
 [4]
-<system_schaltbild_v1.png, id=22, 1079.53313pt x 283.0575pt>
+<system_schaltbild_v1.png, id=25, 1079.53313pt x 283.0575pt>
 File: system_schaltbild_v1.png Graphic file (type png)
 <use system_schaltbild_v1.png>
-Package pdftex.def Info: system_schaltbild_v1.png  used on input line 221.
+Package pdftex.def Info: system_schaltbild_v1.png  used on input line 223.
 (pdftex.def)             Requested size: 464.1902pt x 121.71234pt.
 
-Overfull \hbox (16.05925pt too wide) in paragraph at lines 221--222
+Overfull \hbox (16.05925pt too wide) in paragraph at lines 223--224
  [] 
  []
 
 [5 <./system_schaltbild_v1.png>]
-<usecases2.png, id=28, 523.20468pt x 355.3275pt>
+<usecases2.png, id=31, 523.20468pt x 355.3275pt>
 File: usecases2.png Graphic file (type png)
 <use usecases2.png>
-Package pdftex.def Info: usecases2.png  used on input line 228.
+Package pdftex.def Info: usecases2.png  used on input line 233.
 (pdftex.def)             Requested size: 209.27815pt x 142.12846pt.
-<road1.png, id=29, 1014.03844pt x 574.39594pt>
+ [6 <./usecases2.png>]
+<road1.png, id=36, 1014.03844pt x 574.39594pt>
 File: road1.png Graphic file (type png)
 <use road1.png>
-Package pdftex.def Info: road1.png  used on input line 234.
+Package pdftex.def Info: road1.png  used on input line 241.
 (pdftex.def)             Requested size: 405.60818pt x 229.75429pt.
-<road2.png, id=30, 1070.49937pt x 552.56438pt>
+<road2.png, id=37, 1070.49937pt x 552.56438pt>
 File: road2.png Graphic file (type png)
 <use road2.png>
-Package pdftex.def Info: road2.png  used on input line 238.
+Package pdftex.def Info: road2.png  used on input line 246.
 (pdftex.def)             Requested size: 428.19217pt x 221.02182pt.
- [6 <./usecases2.png> <./road1.png>]
-<road3.png, id=36, 636.87938pt x 573.64313pt>
+<road3.png, id=38, 636.87938pt x 573.64313pt>
 File: road3.png Graphic file (type png)
 <use road3.png>
-Package pdftex.def Info: road3.png  used on input line 242.
+Package pdftex.def Info: road3.png  used on input line 250.
 (pdftex.def)             Requested size: 254.74724pt x 229.45319pt.
+ [7 <./road1.png> <./road2.png>]
 \tf@thm=\write4
 \openout4 = `Konzept.thm'.
 
- [7 <./road2.png> <./road3.png>] (Konzept.aux)
+ [8 <./road3.png>] (Konzept.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-23>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 10197 strings out of 474718
- 217324 string characters out of 5748456
+ 10231 strings out of 474718
+ 217791 string characters out of 5748456
  1937036 words of memory out of 5000000
- 32109 multiletter control sequences out of 15000+600000
- 608102 words of font info for 74 fonts, out of 8000000 for 9000
+ 32132 multiletter control sequences out of 15000+600000
+ 622102 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,19n,107p,10904b,529s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,20n,107p,10904b,529s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
-b><C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
-><C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
-<C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb>
-<C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pf
-b>
-Output written on Konzept.pdf (7 pages, 797846 bytes).
+b><C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
+><C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
+<C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><
+C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:
+/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/U
+sers/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/U
+sers/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on Konzept.pdf (8 pages, 873418 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
+ 85 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
