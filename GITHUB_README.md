@@ -6,7 +6,7 @@ Ein Git Repository lässt sich über die Konsole (bei Windows z.B. PowerShell),
 durch die Desktop App (für alle Systeme erhältlich) oder durch die
 Weboberfläche steuern. Erfahrene Entwickler*innen nutzen meist die Konsole.
 Es ist schneller und präziser, erfordert aber dass man einige spezifische
-Befehle lernen muss. Viele empfehlen aber die Weboberfläche von GitHub zu
+Befehle lernen muss. Viele empfehlen aber die Desktop App von GitHub zu
 nutzen. Diese ist übersichtlich und leicht zu benutzen. Alle nötigen Mittel
 lassen sich dort finden.
 
