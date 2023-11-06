@@ -19,10 +19,10 @@ wann die Story als abgeschlossen betrachtet werden kann.
 
 ## Mögliche Definition of Done
 
-Alle Akzeptanzkriterien sind erfüllt
-Alle notwendigen Tests wurden erfolgreich abgeschlossen
-Alle notwendige Dokumentation wurde erstellt
-Der Product Owner hat die Arbeit überprüft und ist zufrieden
+- Alle Akzeptanzkriterien sind erfüllt.
+- Alle notwendigen Tests wurden erfolgreich abgeschlossen.
+- Alle notwendige Dokumentation wurde erstellt.
+- Der Product Owner hat die Arbeit überprüft und ist zufrieden.
 
 ## Sprint
 
