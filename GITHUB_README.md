@@ -1,13 +1,14 @@
 # Erläuterungen zu GitHub
 
-## Git über Konsole oder Webseite
+## Git über Konsole, Desktop App oder Webseite
 
-Ein Git Repository lässt sich über die Konsole (bei Windows z.B. PowerShell)
-oder durch die Weboberfläche steuern. Erfahrene Entwickler*innen nutzen meist
-die Konsole. Es ist schneller und präziser, erfordert aber dass man einige
-spezifische Befehle lernen muss. Viele empfehlen aber die Weboberfläche von
-GitHub zu nutzen. Diese ist übersichtlich und leicht zu benutzen. Alle nötigen
-Mittel lassen sich dort finden.
+Ein Git Repository lässt sich über die Konsole (bei Windows z.B. PowerShell),
+durch die Desktop App (für alle Systeme erhältlich) oder durch die
+Weboberfläche steuern. Erfahrene Entwickler*innen nutzen meist die Konsole.
+Es ist schneller und präziser, erfordert aber dass man einige spezifische
+Befehle lernen muss. Viele empfehlen aber die Desktop App von GitHub zu
+nutzen. Diese ist übersichtlich und leicht zu benutzen. Alle nötigen Mittel
+lassen sich dort finden.
 
 ## Ein Repository klonen
 
@@ -17,7 +18,7 @@ Computer. Dies ermöglicht, das gesamte Projekt und die dazugehörige
 Versionsgeschichte auf dem lokalen System zu haben, damit man an dem Projekt
 arbeiten, Änderungen vornehmen und Commits durchführen kann. Entwickler*innen
 sollten immer darauf achten die aktuellste Verison des Remote Repositorys lokal
-gespeichert zu haben, bevor sie Änderungen vornehmen.
+gespeichert zu haben (zu pullen), bevor sie Änderungen vornehmen.
 
 ## Unterschiedliche Arbeitsbereiche
 
