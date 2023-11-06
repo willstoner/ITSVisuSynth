@@ -4,6 +4,6 @@
 \contentsline {section}{\numberline {3}Systembeschreibung}{4}{}%
 \contentsline {subsection}{\numberline {3.1}MoSCoW Priorisierung}{4}{}%
 \contentsline {subsection}{\numberline {3.2}Der Systemaufbau}{5}{}%
-\contentsline {subsection}{\numberline {3.3}Die Use Cases}{6}{}%
+\contentsline {subsection}{\numberline {3.3}Use Cases}{6}{}%
 \contentsline {section}{\numberline {4}Roadmap}{7}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
