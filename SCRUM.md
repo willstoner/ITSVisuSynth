@@ -9,6 +9,7 @@ Montags 16:45 Uhr.
 ## User Story
 
 Die User Story beschreibt den Bedarf aus der Perspektive des Nutzenden. Es gibt dabei folgendes Schema:
+
 Als [Rolle] möchte ich [Funktion], damit [Nutzen].
 
 ## Akzeptanzkriterien
@@ -28,12 +29,12 @@ wann die Story als abgeschlossen betrachtet werden kann.
 
 ## Sprint Planning (2h für 1 Woche Sprint)
 
-1. Warum ist dieser Sprint wertvoll? (Sprint-Ziel definieren)
+- Warum ist dieser Sprint wertvoll? (Sprint-Ziel definieren)
 
-2. Was kann in diesem Sprint abgeschlossen werden? (Developer:innen nehmen
+- Was kann in diesem Sprint abgeschlossen werden? (Developer:innen nehmen
    Einträge aus dem Product Backlog)
 
-3. Wie wird die ausgewählte Arbeit erledigt? (Developer:innen zerlegen
+- Wie wird die ausgewählte Arbeit erledigt? (Developer:innen zerlegen
    Product-Backlog-Einträge in kleinere Arbeitseinheiten)
 
 ## Sprint Review
