@@ -15,7 +15,7 @@ void setup() {
 void loop() {
   for(int i = 0; i < 3; i++){
     p_read_value = analogRead(pin_list[i]);
-    p_out_value = map(p_read_value, 0, 4095, 0, 100); // 4095 is maximum value of Poti Signal. Different on every Poti.
+    p_out_value = map(p_read_value, 0, 4095, 0, 100); // 4095 is maximum value of poti signal. Different on every poti.
     Serial.print("P");
     Serial.print(i+1);
     Serial.print(" Value: ");
@@ -23,7 +23,7 @@ void loop() {
     Serial.println("%");
   }
   s_read_value = analogRead(s_pin);
-  s_out_value = map(s_read_value, 0, 4095, 0, 100); // 4095 is maximum value of Poti Signal. Different on every Poti.
+  s_out_value = map(s_read_value, 0, 4095, 0, 100); // Different on every slider.
   Serial.print("S Value:");
   Serial.print(s_out_value);
   Serial.println("%");
