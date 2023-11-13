@@ -40,3 +40,13 @@ wann die Story als abgeschlossen betrachtet werden kann.
 ## Sprint Review
 
 ## Sprint Retrospective
+
+- Was war besonders gut?
+
+- Was lief besonders schlecht?
+
+- Was kann ich beim nächsten Sprint verbessern?
+
+Für jeden einzeln aufschreiben.
+
+Teamziel - Welches **eine** Ziel soll sich das Team setzen?
