@@ -1,3 +1,5 @@
+#include <MIDI.h>
+
 class Poti {
 private:
   int pin;
@@ -8,7 +10,7 @@ public:
 
   void readValue() {
     value = analogRead(pin);
-    value = map(value, 0, 4095, 0, 100);
+    value = map(value, 0, 4095, 0, 127);
   }
 
   float getValue() {
@@ -26,13 +28,15 @@ public:
 
   void readValue() {
     value = analogRead(pin);
-    value = map(value, 0, 4095, 0, 100);
+    value = map(value, 0, 4095, 0, 127);
   }
 
   float getValue() {
     return value;
   }
 };
+
+MIDI_CREATE_DEFAULT_INSTANCE();
 
 Poti poti1(34);
 // Poti poti2(0);
@@ -43,6 +47,7 @@ Poti poti1(34);
 
 void setup() {
   Serial.begin(115200);
+  MIDI.begin(MIDI_CHANNEL_OMNI);
   Serial.println("------------------");
   Serial.println("- Werte auslesen -");
   Serial.println("------------------");
@@ -56,8 +61,9 @@ void loop() {
     Serial.print("P");
     Serial.print(i + 1);
     Serial.print(" Value: ");
-    Serial.print(potis[i]->getValue());
-    Serial.println("%");
+    Serial.println(potis[i]->getValue());
+    Serial.println("send MIDI...");
+    MIDI.sendControlChange(1, potis[i]->getValue(), 1);
   }
 
   //slider.readValue();
