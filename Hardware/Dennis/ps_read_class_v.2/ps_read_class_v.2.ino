@@ -2,11 +2,13 @@
 
 class Poti {
 private:
-  int pin;
-  float value;
 
 public:
-  Poti(int pin) : pin(pin), value(0.0) {}
+  int pin;
+  float value;
+  int current_midi_value;
+  int new_midi_value;
+  Poti(int pin) : pin(pin), value(0.0), current_midi_value(1), new_midi_value(1) {}
 
   void readValue() {
     value = analogRead(pin);
@@ -63,7 +65,8 @@ void loop() {
     Serial.print(" Value: ");
     Serial.println(potis[i]->getValue());
     Serial.println("send MIDI...");
-    MIDI.sendControlChange(1, potis[i]->getValue(), 1);
+    Serial.println(potis[i]->current_midi_value);
+    //MIDI.sendControlChange(1, potis[i]->getValue(), 1);
   }
 
   //slider.readValue();
