@@ -1,17 +1,33 @@
 #include <MIDI.h>
+#include <vector>
+
+unsigned long previous_millis = 0;
+unsigned long interval = 100;
+
 
 class Poti {
 private:
   int pin;
   int next_value;
   int current_value;
+  int value_list[3] = {0};
 
 public:
   Poti(int pin) : pin(pin), next_value(0), current_value(0) {}
 
+
   void readValue() {
+    calc_value = 0;
+    unsigned long current_millis = millis();
     float value = analogRead(pin);
     next_value = map(value, 0, 4095, 1, 127);
+    if(current_millis - previous_millis <= interval){
+      for(int i=0, i < 2, i++){
+        value_list[i] = next_value;
+        calc_value += value_list[i];
+      }
+    }
+    
   }
 
   int getNextValue() {
@@ -25,6 +41,11 @@ public:
   void setCurrentValue(int value){
     current_value = value;
 
+  }
+
+  void getCalcValue(){
+
+    
   }
 };
 
@@ -66,14 +87,16 @@ void setup() {
 void loop() {
   Poti* potis[] = {&poti1};//, &poti2, &poti3};
   for (int i = 0; i < 1; i++) {
-    if(potis[i]->getCurrentValue() != potis[i]->getNextValue()){
+    potis[i]-> setCalcValue();
+    Serial.println(potis[i]->getCalcValue())
+    /*if((potis[i]->getCurrentValue() - potis[i]->getNextValue()) <= abs(10)){
       Serial.print("P");
       Serial.print(i + 1);
       Serial.print(" Value: ");
       potis[i]->setCurrentValue(potis[i]->getNextValue());
       Serial.println(potis[i]->getCurrentValue());
-      MIDI.sendControlChange(1, potis[i]->getCurrentValue(), 1);
-    }
+      //MIDI.sendControlChange(1, potis[i]->getCurrentValue(), 1);
+    }*/
   }
 
   for (int i = 0; i < 3; i++) {
