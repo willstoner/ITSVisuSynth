@@ -1,0 +1,20 @@
+\babel@toc {german}{}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{3}{}%
+\contentsline {section}{\numberline {2}Grundlagen}{3}{}%
+\contentsline {section}{\numberline {3}Konzeption}{4}{}%
+\contentsline {section}{\numberline {4}Projektdurchführung}{6}{}%
+\contentsline {subsection}{\numberline {4.1}Zeitplanung}{6}{}%
+\contentsline {subsection}{\numberline {4.2}Software}{6}{}%
+\contentsline {subsection}{\numberline {4.3}Hardware}{8}{}%
+\contentsline {subsection}{\numberline {4.4}Touch Designer}{9}{}%
+\contentsline {section}{\numberline {5}Fazit}{11}{}%
+\contentsline {subsection}{\numberline {5.1}Zusammenfassung}{11}{}%
+\contentsline {subsection}{\numberline {5.2}Ausblick}{12}{}%
+\contentsline {subsection}{\numberline {5.3}Hardware}{12}{}%
+\contentsline {subsection}{\numberline {5.4}Touch Designer}{12}{}%
+\contentsline {section}{\numberline {6}Systembeschreibung}{12}{}%
+\contentsline {subsection}{\numberline {6.1}MoSCoW Priorisierung}{12}{}%
+\contentsline {subsection}{\numberline {6.2}Der Systemaufbau}{13}{}%
+\contentsline {subsection}{\numberline {6.3}Use Cases}{14}{}%
+\contentsline {section}{\numberline {7}Roadmap}{15}{}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
