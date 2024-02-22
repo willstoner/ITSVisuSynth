@@ -18,7 +18,7 @@ granularem Synthesizer
 }
 
 %\author{}
-\date{20. Februar 2024}
+\date{22. Februar 2024}
 
 % Kopf- und Fußzeilen
 
@@ -123,7 +123,7 @@ granularem Synthesizer
 \newcommand{\Q}{\mathbb{Q}}
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\C}{\mathbb{C}}
-\newcommand{\cP}{{\mathcal P}} 
+\newcommand{\cP}{{\mathcal P}}
 
 
 \begin{document}
@@ -162,24 +162,36 @@ granularem Synthesizer
 
 \section{Einleitung}
 
-Im Rahmen des Kurses für IT-Systeme entsteht ein interaktives Projekt. Studierende haben die Möglichkeit, sowohl Hard- als auch Software eigenständig auszuwählen, um ein individuelle Idee zu entwickeln und umzusetzen. Im Folgenden wird das Konzept des ''Visuellen Synthesizers'' präsentiert.
+
+Das Projekt „VisuSynth“ des Kurses IT-Systeme ermöglicht eine Interaktion zwischen Klängen, Bildern und der eigenen Kreativität zu erschaffen.\\
+Mit einer Kombination aus Software und Hardware sollte eine Möglichkeit geschaffen werden, Töne live aufzunehmen, zu bearbeiten und in visuelle Bewegungen umzuwandeln.
+\\\\
+Das Ziel war es, dass auch Unerfahrene im Bereich Audio-Synthese die Möglichkeit haben, durch eine verständliche Bedienung, das Projekt zu verstehen, zu bedienen und eigene kreative Ideen entwickeln zu können.
+
 
 \section{Grundlagen}
-\begin{figure}[h]
-   \begin{minipage}[b]{.4\linewidth}
-      \includegraphics[width=\linewidth]{Rauminstallation}
-      \caption{mögliche\\Rauminstallation${}^{1}$}
-   \end{minipage}
-   \hspace{.1\linewidth}
-   \begin{minipage}[b]{.4\linewidth}
-      \includegraphics[width=\linewidth]{Rauminstallation}
-      \caption{möglicher\\Mikrocontroller${}^{1}$}
-   \end{minipage}
-\end{figure}
-\noindent Die Idee ist, eine Rauminstallation zu entwickeln, die kreativen Ausdruck und Interaktivität verbindet. Im Kern soll ein granularer Synthesizer stehen, der nicht nur außergewöhnliche Klänge erzeugt, sondern auch eine visuelle Dimension hinzufügt. Unabhängig vom Erfahrungsgrad der Nutzenden im Umgang mit Synthesizern und Videoanimation, tauchen diese in eine Welt voller künstlerischer Gestaltung ein. Durch die Kombination von Klangsynthese und visueller Darstellung wird es den Benutzenden ermöglicht, Klänge in Echtzeit zu formen und zu modulieren, während sie gleichzeitig die Wellenformen, Spektren und künstlerischen Visualisierungen dieser Klänge betrachten können.\\\\
-Letztendlich soll der gesamte Raum zu einem Instrument verwandelt werden, in dem man isoliert von der Außenwelt eine ganz eigene Atmosphäre schafft und in ständiger Interaktion mit den visuellen und akustischen Eindrücken steht.
 
-\footnotetext[1]{KI generiertes Bild}
+Der Bereich Audio-Synthese sowie die Schnittstelle MIDI waren nicht dem ganzen Projektteam bekannt. Deshalb war es wichtig, Informationen über diese Bereiche zu sammeln, damit auf einem ähnlichen Wissensstand gearbeitet werden konnte.
+
+\subsection{Granular-Synthese}
+
+Die Granular-Synthese ist eine Synthese-Form wie z.B. auch die Subtraktive Synthese, FM-Synthese (Frequenzmodulation) oder auch die Wellenform Synthese, die zur musikalischen Klangerzeugung dienen. Einige diese Formen haben sich dabei stark oder weniger stark durchgesetzt. Es dabei wichtig zu unterscheiden, ob analoge oder digitale Synthese verwendet wird.
+\\\\
+In den 1960er Jahren wurden die ersten analogen Synthesizer vorgestellt. Am einflussreichsten war dabei der Ingenieur Robert Moog, der bis heute als Pionier in der Welt der Synthesizer und elektronischen Musik gilt. Moog Synthesizer sind bis heute beliebt. Die Klangerzeugung basiert dabei auf die Verschaltung von elektronischen Bauteilen.
+Mit einer Weiterentwicklung von Computern und der Erfindung erster serienmäßig produzierbaren Mikroprozessoren, kam es auch zu Erfindung erster Synthesizer, die auf digitaler Synthese beruhten. Einen Meilenstein legte dabei der Yamaha DX7. Ein Algorithmus auf einem Mikroprozessor stellt hier per FM-Synthese den Klang her.
+\\\\
+Die Granular-Synthese beruht darauf, ein Sample(„Audioschnipsel“) in kleine „Grains“ zu unterteilen, die zwischen 1ms – 50ms lang sind. Diese können dann in verschiedenen Tonhöhen, Geschwindigkeiten oder an verschiedenen Positionen abgespielt werden. Dies sorgt häufig für atmosphärische oder auch experimentelle Klänge. Es benötigt zur granularen Synthese ein vorher aufgenommenes oder gespeichertes Sample.
+
+\subsection{Umsetzung}
+
+Um diese Synthese-Form zu benutzen war es auch wichtig zu unterscheiden, wie man digitale Synthese umsetzen kann. Eine Möglichkeit wäre gewesen, einen DSP zu verwenden, auf dem der Algorithmus dann läuft, ähnlich wie beim Yamaha DX7. Dies setzte tiefgehende Programmierkenntnisse, sowie die Fähigkeit einen solchen Algorithmus erstellen zu können, Voraus. 
+Eine andere Möglichkeit war es, eine schon vorhandene Umgebung/ Softwareanwendung zu verwenden, die die Synthese dann auf der CPU des PC’s/Laptops durchführt. Zusätzlich haben viele dieser Umgebungen auch vorgefertigte Module und Anleitungen, um eigene Synthesizer zu bauen.
+\\\\
+Mögliche Tools sind dabei Max for Live (Ableton, Cycling’74), Reaktor (Native Instruments) oder SunVox (Alexander Zolotov).
+
+\subsection{MIDI}
+
+MIDI („Musical Instrument Digital Interface“) ist eine Schnittstelle, die zur Übertragung von musikalischen Informationen dient. Dabei gibt es verschiedene Datentypen, die über MIDI übertragen werden. Für das Projekt waren vor allem die Werte „Control Change“ sowie „Note On“ und „Note Off“ wichtig. 
 
 \newpage
 
@@ -213,189 +225,281 @@ Die Visuals wechseln nun automatisch alle zwei Minuten, können aber auch direkt
 
 \section{Projektdurchführung}
 
+Zum Sammeln und Strukturieren von Ideen wurde das Tool „Miro“ verwendet. Dort konnten erste Ideen skizziert und eine grobe Aufteilung der Aufgabengebiete dargestellt werden. In der ersten Phase des Projektes war es dabei wichtig zu sondieren, welche Möglichkeiten es gibt und welche Werkzeuge dafür benötigt werden. Ein Miroboard war dabei hilfreich, um im Team zu kooperieren und alle Ideen übersichtlich zu halten.
+\\\\
+Im Anschluss wurde ergänzend ein Git-Repository angelegt, um alle Materialien, Dateien und Texte abzulegen und für alle Mitglieder des Teams zugänglich zu machen.
+\\\\
+Eine Gruppeneinteilung half frühzeitig, um eine klare Arbeitsaufteilung untereinander sicher zu stellen. Dabei wurde sich auf folgende Teams festgelegt: 
+\begin{itemize}
+  \item \textbf{Software}: Recherche nach Software zur Granular-Synthese sowie Erstellung eines Granular-Synthesizers.
+  \item \textbf{Hardware}: Planung und Umsetzung eines Controllers mit geeignetem Layout, der Wert von Drehreglern und Fadern per MIDI an einen Computer sendet.
+  \item \textbf{Visuals / TouchDesigner}: Erstellung von verschiedenen TouchDesigner-Projekten, die Audio verarbeiten und dazu geeignet reagieren.
+\end{itemize}
+
 \subsection{Zeitplanung}
 
-\subsection{Software}
+Für das Management und die Zeiteinteilung wurden einige Ideen aus Scrum genutzt. So hat das Team sich beispielsweise einmal die Woche zu einem Meeting getroffen und darin den aktuellen Stand, die aktuellen Probleme und eventuelle Lösungen zusammengetragen.
+\begin{wrapfigure}{r}{0.7\textwidth}
+  \centering
+  \includegraphics[width=0.6\textwidth]{road1}
+  \caption{Auszug der Roadmap}
+\end{wrapfigure}
 
-Nach der Entscheidung, SunVox als Synthesizer Software zu nutzen, galt es zuerst, ein Projekt zu bauen, das die Hauptaspekte der granularen Synthese erfüllt und steuern lässt. Also dass ein Sample zu einem gewählten Punkt in einer bestimmten Frequenz abgespielt werden kann. Das Sample sollte dabei entweder selbst aufgenommen oder ausgewählt werden. Dies ließ sich prinzipiell einfach mit den in SunVox eingebauten Modulen umsetzen.
-Es gibt in SunVox das sogenannte MultiSynth Modul, welches allgemein genutzt werden kann, um ein Audiosample abzuspielen und dabei bestimmte Eigenschaften verschiedener Module zu transportieren und auf das jeweilige Sample zu übertragen. Es kann außerdem direkt die angespielte Phase eingestellt werden, weshalb sich darüber endlich auch die Position des Samples bestimmt, die hardwareseitig vom Slider kontrolliert werden sollte. Dass das Sample dann aber nicht nur einmal abgespielt wird, sondern in sich wiederholenden Grains, wird durch einen Low Frequency Oscillator sichergestellt, der auch als Modul in SunVox vorhanden ist. Sobald der MultiSynth gespielt wird, wird auch der LFO angesteuert und triggered in einer einstellbaren Frequenz das Sample immer wieder neu an. Wie lang das Sample abgespielt wird, bestimmt sich im Endeffekt aus der gewählten Frequenz des LFO, um aber darüber hinaus noch mehr vom Sample in einen eingestellten Sound hineinzubekommen, lässt sich die gewählte Position, die Phase des MultiSynth, auch mehr oder weniger randomisieren, was zu einer Art Position Spray führt, was noch mehr Abwechslung in die Soundgestaltung bringen sollte.
-Ein großer Pluspunkt für SunVox ist die einfache Anbindung von MIDI-Geräten. Ein jeweiliger Controller muss nur am Rechner angeschlossen sein und man kann Parameter für Parameter auf die Bedienelemente legen wie man will. Dabei hätte man sogar experimentell mehrere Parameter auf ein Potentiometer mappen können. Für das MIDI-Keyboard, das zum Spielen verwendet werden sollte, musste nur festgelegt werden, welches Modul die Keyboard-MIDI-Befehle annehmen soll. Das war entsprechend unser selbst gebautes Granulator Modul.
-Das Sampler Modul von SunVox stellt exakt die gewünschten Funktionen zum Aufnehmen und Reinladen von Samples bereit. Problem hier war aber, dass diese Funktionen nur per Mausklick im Interface auswählbar sind, was die Vorstellung einer vollends über Bedienelemente am Mikrocontroller gesteuerten Installation störte. Eventuell wäre es möglich gewesen, wenn man, statt direkt mit der SunVox Software zu arbeiten, die ebenso vorhandene Library genutzt hätte, die sich über Code steuern lässt. Die Entscheidung fiel dann aber schnell darauf, mit dem Programm weiterzuarbeiten und lieber die Installation anzupassen und flexibler zu gestalten, da es einerseits übersichtlicher ist und grade im Zusammenspiel mit der Peripherie um einiges schneller und flexibler in Sachen Konfiguration und Fehleranalyse ist und es andererseits deutlich mehr Zeit benötigt hätte, sich da hineinzuarbeiten, um am Ende eventuell festzustellen, dass die Installation aus welchen Gründen auch immer trotzdem nicht wie geplant umgesetzt werden kann. Zudem bietet SunVox mit dem Sampler die Möglichkeit, die Waveform des Samples anzeigen zu lassen, inklusive Cursor, der anzeigt, wo das Sample aktuell abgespielt wird. Eine solche Visualisierung war von Anfang an für die Installation vorgesehen, nur war nicht eindeutig, wie sie eingebunden werden kann. So fiel dann die Entscheidung, einen extra Bildschirm respektive den Laptop, über den die Software am Ende lief, aufzustellen, um die Steuerung und damit die Funktionalität der Installation sicher zu stellen und gleichzeitig noch die Waveform anzeigen zu können.
+\noindent Zudem wurde eine Roadmap erstellt, um den Zeitrahmen abzubilden, den jedes Team zur Verfügung hat. Wichtig war es genug Puffer einzuplanen, da es erfahrungsgemäß immer zu Verzögerungen kommen kann oder Teile des Projektes nicht so wie geplant laufen.
 \\\\
-Somit stand schnell ein Projekt, dass grundlegend als Granular Synthesizer funktioniert. Von da an war die Hauptaufgabe, auszuloten, welche ansteuerbaren Parameter sich in SunVox am besten für die Bedienung an unserer Hardware eignen. Viele Optionen standen zur Auswahl, die teilweise stark den Sound beeinflussten, wie zum Beispiel die Randomisierung der Tonhöhe. Um es nicht zu kompliziert zu halten, da es ohnehin mit einem gewissen Anspruch verbunden ist, den Synthesizer zu spielen, wurden am Ende aber nur die wichtigsten Parameter Position, Loop Frequency, Position Spray sowie die, die den Sound nochmal abrunden, Reverb, Delay und Distortion gemappt (letztere waren ebenfalls direkt als Modul in SunVox vorhanden).
-\\\\
-Um zusätzlich das Problem zu beheben, dass es zu Artefakten in der Audio kommt, wenn das Sample durch die gewählte Position bei hoher Amplitude abgehakt wird, wurde noch versucht, mit einem ADSR Attack und Release für die Grains einstellbar zu machen, allerdings hat dieser nicht wie erwartet für die einzelnen Grains gegriffen, sondern nur für einen gespielten Input, der natürlich viele Grains hintereinander triggered. Als Alternative lässt sich die Hüllkurve des Samples zwar direkt im Sampler selbst einstellen, dies muss aber jedes Mal aufs Neue manuell gemacht werden, sobald ein neues Sample geladen wird. Das wurde dann aber entsprechend in Kauf genommen und es blieb bei den genannten Parametern, die die Hardware steuern sollte.
 
 \newpage
 
+\subsection{Software}
+
+Es wurde schnell klar, dass eine Synthese innerhalb des Mikrocontrollers sehr komplex werden könnte. Deshalb wurde festgelegt, die Audio-Synthese auf der CPU des PCs über eine Software zu gestalten. Nachdem verschiedene Umgebungen getestet wurden, hat man sich auf die Software SunVox geeinigt.\\
+SunVox bietet umfassende Möglichkeiten, um individuelle Synthesizer zu bauen. Dabei bleibt es verständlich und im Vergleich zu anderen Programmen leicht zu erlernen. Zudem ist SunVox kostenlos nutzbar. Dies war auch ein wichtiger Faktor, damit alle Personen uneingeschränkt mit dem Programm arbeiten konnten.
+
+\subsubsection{SunVox Implementierung}
+
+Nach der Entscheidung, SunVox als Synthesizer Software zu nutzen, galt es zuerst, ein Projekt zu bauen, das die Hauptaspekte der granularen Synthese erfüllt und steuern lässt. Also dass ein Sample zu einem gewählten Punkt in einer bestimmten Frequenz abgespielt werden kann. Das Sample sollte dabei entweder selbst aufgenommen oder ausgewählt werden. Dies ließ sich prinzipiell einfach mit den in SunVox eingebauten Modulen umsetzen.
+
+\begin{wrapfigure}{r}{0.7\textwidth}
+  \centering
+  \includegraphics[width=0.65\textwidth]{sunvox_1}
+  \caption{Aufbau des Granulator Moduls in SunVox}
+\end{wrapfigure}
+\noindent Es gibt in SunVox das sogenannte MultiSynth Modul, welches allgemein genutzt werden kann, um ein Audiosample abzuspielen und dabei bestimmte Eigenschaften verschiedener Module zu transportieren und auf das jeweilige Sample zu übertragen.\\
+Es kann außerdem direkt die angespielte Phase eingestellt werden, weshalb sich darüber endlich auch die Position des Samples bestimmt, die hardwareseitig vom Slider kontrolliert werden sollte. Dass das Sample dann aber nicht nur einmal abgespielt wird, sondern in sich wiederholenden Grains, wird durch einen Low Frequency Oscillator sichergestellt, der auch als Modul in SunVox vorhanden ist. Sobald der MultiSynth gespielt wird, wird auch der LFO angesteuert und triggered in einer einstellbaren Frequenz das Sample immer wieder neu an. Wie lang das Sample abgespielt wird, bestimmt sich im Endeffekt aus der gewählten Frequenz des LFO, um aber darüber hinaus noch mehr vom Sample in einen eingestellten Sound hineinzubekommen, lässt sich die gewählte Position, die Phase des MultiSynth, auch mehr oder weniger randomisieren, was zu einer Art Position Spray führt, was noch mehr Abwechslung in die Soundgestaltung bringen sollte.
+\\\\
+Ein großer Pluspunkt für SunVox ist die einfache Anbindung von MIDI-Geräten. Ein jeweiliger Controller muss nur am Rechner angeschlossen sein und man kann Parameter für Parameter auf die Bedienelemente legen wie man will. Dabei hätte man sogar experimentell mehrere Parameter auf ein Potentiometer mappen können. Für das MIDI-Keyboard, das zum Spielen verwendet werden sollte, musste nur festgelegt werden, welches Modul die Keyboard-MIDI-Befehle annehmen soll. Das war entsprechend unser selbst gebautes Granulator Modul.\\
+\begin{wrapfigure}{r}{0.7\textwidth}
+  \centering
+  \includegraphics[width=0.65\textwidth]{sunvox_4}
+  \caption{Anzeige der Waveform des Samples in SunVox}
+\end{wrapfigure}
+
+\noindent Das Sampler Modul von SunVox stellt exakt die gewünschten Funktionen zum Aufnehmen und Reinladen von Samples bereit. Problem hier war aber, dass diese Funktionen nur per Mausklick im Interface auswählbar sind, was die Vorstellung einer vollends über Bedienelemente am Mikrocontroller gesteuerten Installation störte. Eventuell wäre es möglich gewesen, wenn man, statt direkt mit der SunVox Software zu arbeiten, die ebenso vorhandene Library genutzt hätte, die sich über Code steuern lässt.
+\\\\
+Die Entscheidung fiel dann aber schnell darauf, mit dem Programm weiterzuarbeiten und die Installation anzupassen und flexibler zu gestalten. Dies war einerseits übersichtlicher und gerade im Zusammenspiel mit der Peripherie um einiges schneller und flexibler in der Konfiguration und Fehleranalyse. Es hätte zudem deutlich mehr Zeit benötigt, sich in den Code der Software hineinzuarbeiten, um am Ende eventuell festzustellen, dass die Installation trotzdem nicht wie geplant umgesetzt werden kann.
+\\\\
+SunVox bietet mit dem Sampler die Möglichkeit, die Waveform des Samples anzeigen zu lassen, inklusive Cursor, der anzeigt, wo das Sample aktuell abgespielt wird. Eine solche Visualisierung war von Anfang an für die Installation vorgesehen, nur war nicht eindeutig, wie sie eingebunden werden kann. So fiel dann die Entscheidung, einen extra Bildschirm respektive den Laptop, über den die Software am Ende lief, aufzustellen, um die Steuerung und damit die Funktionalität der Installation sicher zu stellen und gleichzeitig noch die Waveform anzeigen zu können.\\
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \centering
+  \includegraphics[width=0.45\textwidth]{sunvox_3}
+  \caption{Parameter des Granulator Moduls}
+\end{wrapfigure}
+
+\noindent Somit stand schnell ein Projekt, dass grundlegend als Granular Synthesizer funktioniert. Von da an war die Hauptaufgabe, auszuloten, welche ansteuerbaren Parameter sich in SunVox am besten für die Bedienung an unserer Hardware eignen. Viele Optionen standen zur Auswahl, die teilweise stark den Sound beeinflussten, wie zum Beispiel die Randomisierung der Tonhöhe. Um es nicht zu kompliziert zu halten, da es ohnehin mit einem gewissen Anspruch verbunden ist, den Synthesizer zu spielen, wurden am Ende aber nur die wichtigsten Parameter Position, Loop Frequency, Position Spray sowie die, die den Sound nochmal abrunden, Reverb, Delay und Distortion gemappt (letztere waren ebenfalls direkt als Modul in SunVox vorhanden)
+\\\\
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{sunvox_2}
+  \caption{Aufbau des Synthesizers in Sunvox}
+\end{figure}
+\newpage
+\noindent Um zusätzlich das Problem zu beheben, dass es zu Artefakten in der Audio kommt, wenn das Sample durch die gewählte Position bei hoher Amplitude abgehakt wird, wurde noch versucht, mit einem ADSR Attack und Release für die Grains einstellbar zu machen, allerdings hat dieser nicht wie erwartet für die einzelnen Grains gegriffen, sondern nur für einen gespielten Input, der natürlich viele Grains hintereinander triggered.\\
+\begin{wrapfigure}{r}{0.7\textwidth}
+  \centering
+  \includegraphics[width=0.65\textwidth]{sunvox_5}
+  \caption{Manuelle Einstellung der Hüllkurve eines Samples}
+\end{wrapfigure}
+
+\noindent Als Alternative lässt sich die Hüllkurve des Samples zwar direkt im Sampler selbst einstellen, dies muss aber jedes Mal aufs Neue manuell gemacht werden, sobald ein neues Sample geladen wird. Das wurde dann aber entsprechend in Kauf genommen und es blieb bei den genannten Parametern, die die Hardware steuern sollte.\\
 
 \subsection{Hardware}
+
+Im Bereich der Hardware-Umsetzung waren die Rahmenbedingungen, durch die Ansteuerung des Synthesizers bestimmt. Demnach sollten Drehregler, Schieberegler und Buttons zur Verfügung stehen, die die Effekte und Mechanismen des Gerätes bedienbar machen.
+
+\subsubsection{Ausgangssituation und Anforderungen}
+
+Im Laufe der ersten Wochen, der Entwicklungsphase auf dem Miroboard, wurde klar, dass der Synthesizer MIDI Daten ausgeben sollte. Dies ist vorallem deshalb sinnvoll, da sowohl SunVox als auch Touch Designer dieses Format gut nutzen können.
+\\\\
+Die Wahl des Mikrocontrollers fiel zunächst auf den ESP32, da er günstig ist und man davon ausging, er würde für alle Funktionen ausreichen. Später stellte sich heraus, dass der ESP über eine USB-to-UART Schnittstelle mit dem Computer verbunden wird. Er bot also keine native, vollwertige USB Schnittstelle, die man benötigte um MIDI Daten zu verarbeiten. Man wich dann auf den Teensy 4.1 aus.
+\newpage
+Bereitgestellt wurden dann:
+\begin{itemize}
+  \item mehrere (Dreh-) Potentiometer
+  \item ein (Schiebe-) Potentiometer
+  \item ein einfacher Button
+  \item eine 18x24 Lochrasterplatine
+  \item Buchsenleisten und Steckverbinder (Jumper)
+  \item diverse Kabel
+\end{itemize}
+
+\subsubsection{Proof of Concept (mit Code)}
+
+Zunächst wurde ein einfacher C++ Programmcode in der Browseranwendung Wokwi geschrieben und dort mit einigen Reglern simuliert.\\
+
+\begin{wrapfigure}{r}{0.7\textwidth}
+  \centering
+  \includegraphics[width=0.65\textwidth]{wokwi}
+  \caption{Simulation in Wokwi}
+\end{wrapfigure}
+
+\noindent Dann wurde mithilfe eines Breadboards eine erste Schaltung mit einem Drehregler und einem Schieberegler aufgebaut und der Code in die Arduino IDE übertragen.
+\noindent Dort wurde dieser dann um die MIDI Funktionalität erweitert. Dazu wurden die Bibliotheken USB-MIDI und MIDI Library von dem Autor lathoub und die Bibliothek MIDIUSB von Gary Grewal importiert. Diese sind direkt über die IDE enthalten und nicht extern.
+\\\\
+Dann wurde der Code getestet und mit serieller Ausgabe überprüft. Der Teensy wurde zu diesem Zeitpunkt vom Rechner als MIDI Controller erkannt.
+\\\\
+Die Potentiometer wurden also als analoge Signale gelesen und ihre Werte als MIDI Daten weitergegeben. Wobei der Mikrocontroller dann als externer MIDI Controller verwendet wurde.
+
+\newpage
+\noindent Hier ein Codeausschnitt, der für genau ein Potentiometer funktioniert. Er kann nach belieben erweitert werden.
+\begin{figure}[h]
+\centering
+  \includegraphics[scale=0.5]{code_1}
+  \caption{Kompletter Code für einen analogen Eingang}
+\end{figure}\\
+Für den Synthesizer wurden final insgesamt acht Inputs genutzt.
+\begin{figure}[h]
+\centering
+  \includegraphics[scale=0.5]{code_2}
+  \caption{Alle initiierten Eingänge}
+\end{figure}
+\newpage
+
+\subsubsection{Aufbau}
+
+ddd
+
+\newpage
+
+\subsubsection{Gehäuse}
+
+\noindent Nachdem nun alles Verkabelt ist, wurde es Zeit für ein passendes Gehäuse. Im Gespräch waren eine Holzkonstruktion oder ein 3D-Druck. Es wurde sich jedoch entschieden, mit dem 3D-Drucker zu arbeiten, weil es praktischer ist. Die erste Skizze ähnelte der Vision unseres Projekts hinsichtlich des Aussehens.\\
+Um den Synthesizer-Look zu erreichen wurden die sechs Drehregler  nebeneinander auf dem oberen Teil des Gehäuses angeordnet. Darunter der Schieberegler und der Button. Das erste Gehäuse sollte dann eine Länge, Breite und Höhe von (19 x 9 x 5) cm haben.\\
+\begin{figure}[h]
+\centering
+  \includegraphics[scale=0.3]{hw_1}
+  \caption{Erster Entwurf des Gehäuses}
+\end{figure}\\
+Zum Modellieren haben wir die Software Fusion360 von AutoDesk genutzt und zum erzeugen des G-Code die Drucker-eigene Software CraftWare Pro.\\
+\begin{figure}[h]
+\centering
+  \includegraphics[scale=0.3]{hw_2}
+  \caption{3D Modell des Gehäuses in Fusion360}
+\end{figure}\\
+Der Teensy liegt in einer Fassung im Gehäuse ungefähr an der Stelle wo der Button ist.\\
+Die Hälse der Drehregler konnte man durch die Blende schieben und dann mit einer Mutter auf der anderen Seite festschrauben. Ähnlich konnte auch der Schieberegler befestigt werden.\\
+Einzig die Blende mit dem unteren Teil des Gehäuses zu verbinden, war etwas aufwendiger. An dieser Stelle wurden dann zwei Gewindeeinsätze heiß gemacht und in das Gehäuse bestehend aus PLA Filament geschmolzen.\\
+\begin{figure}[h]
+\centering
+  \includegraphics[scale=0.5]{hw_3}
+  \caption{Finalisierter Controller für den Synthesizer}
+\end{figure}\\
 
 \newpage
 
 \subsection{Touch Designer}
 
-In Touch-Designer wollten wir interessante, audioreaktive Visuals erzeugen, die den granularen Synthesizer visuell untermahlen. Wir haben außerdem den Anspruch gehabt, dass zwischen den Visuals automatisch umgeschaltet wird und auch manuelles Umschalten möglich machen.
-\\\\
-\textbf{Gesamtstruktur}
-\\\\
-In der Gesamtstruktur des Touch-Designer Files sind die einzelnen Visuals als .tox Dateien eingefügt. Auf diese Weise können alle Visuals parallel laufen. Am Anfang gibt es einen Audioinput, auf den Alles Visuals zugreifen. So wird nicht für jedes Visual ein eigener Input benötigt, sondern alle haben nur einen „In“ Chop, über den alle auf den gleichen Audioinput zugreifen können. Am Ende jeder .tox Datei ist ein „Out“ Chop, worüber die Ausgänge der Visuals alle in einen „Switch“ laufen. Dieser Switch geht in ein „Cross“. In den anderen Eingang des „Cross“ geht ein schwarzes Bild, welches für den Übergang zwischen den Visuals benötigt wird. Am Ausgang des „Cross“ hängt ein „Window“, welches der finale Ausgang für Touch-Designer ist. Für den Übergang gibt es einen automatischen und einen manuellen Modus. Im Automatischen Modus zählt ein Timer hoch, der nach einer bestimmten Zeit den Übergang auslöst. Beim Übergang wechselt der „Cross“ für einen kurzen Moment auf das schwarze Bild. Hier gibt es einen Fade und keinen harten Cut. In dem Moment, indem das Bild Vollständig schwarz wird, springt der „Switch“ auf das nächste Visual und der „Cross“ fadet aus dem schwarzen Bild zurück auf das neue Visual. Für den manuellen Modus gibt es einen extra Knopf auf dem Controller, der ein Midi Signal an Touch-Designer schickt und den Übergang einleitet. Nach dem manuellen Wechsel bleibt das ausgewählte Visual für eine bestimmte Zeit stehen. Läuft diese Zeit ab, ohne dass der Knopf erneut gedrückt wurde, springt Touch-Designer wieder in den automatischen Modus, damit nicht dauerhaft ein Visual stehen bleibt, sobald der Knopf einmal gedrückt wurde. 
+In Touch-Designer war das Ziel interessante, audioreaktive Visuals erzeugen, die den granularen Synthesizer visuell untermalen. Man hatte außerdem den Anspruch, dass zwischen den Visuals automatisch oder manuell umgeschaltet werden kann.
 
-\begin{center}
- \includegraphics[scale=0.9]{sunvox_1}
- \captionof{figure}{SSS}
-\end{center}
+\subsubsection{Gesamtstruktur}
+
+In der Gesamtstruktur des Touch-Designer Files sind die einzelnen Visuals als .tox-Dateien eingefügt. Auf diese Weise können alle Visuals parallel laufen. Am Anfang gibt es einen Audioinput, auf den alle Visuals zugreifen. So wird nicht für jedes Visual ein eigener Input benötigt, sondern alle haben nur einen „In“ Chop, über den sie auf den gleichen Audioinput zugreifen können. Am Ende jeder .tox-Datei ist ein „Out“ Chop, worüber die Ausgänge der Visuals alle in einen „Switch“ laufen. Dieser Switch geht in ein „Cross“.
+\begin{wrapfigure}{r}{0.7\textwidth}
+  \centering
+  \includegraphics[width=0.7\textwidth]{td_1}
+  \caption{Struktur des Touch Designer Programms}
+\end{wrapfigure}
+
+\noindent In den anderen Eingang des „Cross“ geht ein schwarzes Bild, welches für den Übergang zwischen den Visuals benötigt wird. Am Ausgang des „Cross“ hängt ein „Window“, welches der finale Ausgang für Touch-Designer ist. Für den Übergang gibt es einen automatischen und einen manuellen Modus.
+\\\\
+Im Automatischen Modus zählt ein Timer hoch, der nach einer bestimmten Zeit den Übergang auslöst. Beim Übergang wechselt der „Cross“ für einen kurzen Moment auf das schwarze Bild. Hier gibt es einen Fade und keinen harten Cut. In dem Moment, indem das Bild Vollständig schwarz wird, springt der „Switch“ auf das nächste Visual und der „Cross“ fadet aus dem schwarzen Bild zurück auf das neue Visual. Für den manuellen Modus gibt es einen extra Knopf auf dem Controller, der ein Midi Signal an Touch-Designer schickt und den Übergang einleitet. Nach dem manuellen Wechsel bleibt das ausgewählte Visual für eine bestimmte Zeit stehen. Läuft diese Zeit ab, ohne dass der Knopf erneut gedrückt wurde, springt Touch-Designer wieder in den automatischen Modus, damit nicht dauerhaft ein Visual stehen bleibt, sobald der Knopf einmal gedrückt wurde. 
+
 
 \newpage
 
-\noindent \textbf{Visuals}
-\begin{figure}[h]
-   \begin{minipage}[b]{.4\linewidth}
-     ,,Color Blobs'':
-     \\\\
-In diesem Audio-Visualizer wird das Spektrum des Audio-Inputs genutzt, um Kreise zu erstellen und deren Größe zu verändern. Diese werden durch eine Aneinanderreihung von Feedback, Blur, Displace, Mirror und anderen TOP-Nodes zu einem Interessanten, sich bewegenden „rohrschachtest-artigen“ Muster. Die Farbgebung wird über eine Ramp- und einen Lookup-TOP gesteuert.
-   \end{minipage}
-   \hspace{.1\linewidth}
-   \begin{minipage}[b]{.4\linewidth}
-      \includegraphics[width=\linewidth]{sunvox_2}
-      \caption{möglicher\\Mikrocontroller${}^{1}$}
-   \end{minipage}
-\end{figure}
-\begin{figure}[h]
-   \begin{minipage}[b]{.4\linewidth}
-     „Point Cloud“:
-     \\\\
-     Eine Röhre wird verformt und durch ein Noise-TOP geschickt, das Abbild der Röhre wird dann durch 	eine Point Cloud aus kleinen Quadraten abgebildet. Das Noise wird durch den Audio-Input verändert, 	was die Audio-Reaktivität erzeugt.
-   \end{minipage}
-   \hspace{.1\linewidth}
-   \begin{minipage}[b]{.4\linewidth}
-   \vspace{50pt}
-      \includegraphics[scale=1]{sunvox_3}
-      \caption{möglicher\\Mikrocontroller${}^{1}$}
-   \end{minipage}
-\end{figure}
-\begin{figure}[h]
-   \begin{minipage}[b]{.4\linewidth}
-     ,,Color Blobs'':
-     \\\\
-In diesem Audio-Visualizer wird das Spektrum des Audio-Inputs genutzt, um Kreise zu erstellen und deren Größe zu verändern. Diese werden durch eine Aneinanderreihung von Feedback, Blur, Displace, Mirror und anderen TOP-Nodes zu einem Interessanten, sich bewegenden „rohrschachtest-artigen“ Muster. Die Farbgebung wird über eine Ramp- und einen Lookup-TOP gesteuert.
-   \end{minipage}
-   \hspace{.1\linewidth}
-   \begin{minipage}[b]{.4\linewidth}
-      \includegraphics[width=\linewidth]{sunvox_4}
-      \caption{möglicher\\Mikrocontroller${}^{1}$}
-   \end{minipage}
-\end{figure}
-\begin{figure}[h]
-   \begin{minipage}[b]{.4\linewidth}
-     ,,Color Blobs'':
-     \\\\
-In diesem Audio-Visualizer wird das Spektrum des Audio-Inputs genutzt, um Kreise zu erstellen und deren Größe zu verändern. Diese werden durch eine Aneinanderreihung von Feedback, Blur, Displace, Mirror und anderen TOP-Nodes zu einem Interessanten, sich bewegenden „rohrschachtest-artigen“ Muster. Die Farbgebung wird über eine Ramp- und einen Lookup-TOP gesteuert.
-   \end{minipage}
-   \hspace{.1\linewidth}
-   \begin{minipage}[b]{.4\linewidth}
-      \includegraphics[width=\linewidth]{sunvox_5}
-      \caption{möglicher\\Mikrocontroller${}^{1}$}
-   \end{minipage}
-\end{figure}
-\begin{figure}[h]
-   \begin{minipage}[b]{.4\linewidth}
-     ,,Color Blobs'':
-     \\\\
-In diesem Audio-Visualizer wird das Spektrum des Audio-Inputs genutzt, um Kreise zu erstellen und deren Größe zu verändern. Diese werden durch eine Aneinanderreihung von Feedback, Blur, Displace, Mirror und anderen TOP-Nodes zu einem Interessanten, sich bewegenden „rohrschachtest-artigen“ Muster. Die Farbgebung wird über eine Ramp- und einen Lookup-TOP gesteuert.
-   \end{minipage}
-   \hspace{.1\linewidth}
-   \begin{minipage}[b]{.4\linewidth}
-      \includegraphics[width=\linewidth]{sunvox_6}
-      \caption{möglicher\\Mikrocontroller${}^{1}$}
-   \end{minipage}
-\end{figure}
+\subsubsection{Visuals}
 
-
+\textbf{Color Blobs}\\\\
+\begin{minipage}{0.4\textwidth}
+In diesem Audio-Visualizer wird das Spektrum des Audio-Inputs genutzt, um Kreise zu erstellen und deren Größe zu verändern. Diese werden durch eine Aneinanderreihung von Feedback, Blur, Displace, Mirror und anderen TOP-Nodes zu einem Interessanten, sich bewegenden „rohrschachtest-artigen“ Muster. Die Farbgebung wird über eine Ramp- und einen Lookup-TOP gesteuert.
+\vspace{60pt}
+\end{minipage}
+\hspace{20pt}
+\begin{minipage}{0.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{td_2}
+  \captionof{figure}{„Color Blobs''}
+\end{minipage}
+\\\\
+\textbf{Point Cloud}\\\\
+\begin{minipage}{0.4\textwidth}
+ Eine Röhre wird verformt und durch ein Noise-TOP geschickt. Das Abbild der Röhre wird dann durch 	eine Point Cloud aus kleinen Quadraten abgebildet. Das Noise wird durch den Audio-Input verändert, 	wodurch die Audio-Reaktivität erzeugt wird.
+\vspace{110pt}
+\end{minipage}
+\hspace{20pt}
+\begin{minipage}{0.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{td_3}
+  \captionof{figure}{ „Point Cloud“}
+\end{minipage}
+\\\\
+\\\\
+\\\\
+\\\\
+\textbf{Fuzzy Ball}\\\\
+\begin{minipage}{0.4\textwidth}
+Hier wird eine verformte Kugel mit einem PHONG-Material versehen, dessen Farbe, Height-Map und Normal-Map, durch ein sich bewegendes Noise erstellt werden. Das Material wird in einer Gitter-Optik angezeigt. Farbe wird in Form von Beleuchtung hinzugefügt. Die Verformung und die Beleuchtungsintensität werden über den Audio-Input gesteuert.
+\vspace{90pt}
+\end{minipage}
+\hspace{20pt}
+\begin{minipage}{0.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{td_4}
+  \captionof{figure}{„Fuzzy Ball“}
+\end{minipage}
+\\\\
+\textbf{Purple Fog}\\\\
+\begin{minipage}{0.4\textwidth}
+Dieses Visual basiert auf einem Circle, dessen Größe auf das Audiosignal reagiert. Zudem wird er durch verschiedene Filter, wie zum Beispiel „Displace“ und „Edge“ in seiner Form verändert. Das Top „Ramp“ sorgt hier für den Farbverlauf. Durch ein „Noise“ wird der Circle noch stärker verzerrt und es entsteht dann die Finale Struktur. Um den Effekt zu verstärken, wird anschließend ein Feedback Loop eingebaut.
+\vspace{1pt}
+\end{minipage}
+\hspace{20pt}
+\begin{minipage}{0.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{td_6}
+  \captionof{figure}{„Purple Fog“}
+\end{minipage}
 \newpage
+\noindent\textbf{Donut}
+\begin{wrapfigure}{r}{0.7\textwidth}
+  \centering
+  \includegraphics[width=0.6\textwidth]{td_5}
+  \caption{„Donut“}
+\end{wrapfigure}
+
+\noindent Für den Hintergrund wird ein Circle genutzt, aus dem mittels eines „Noise“ Tops eine Wolke aus vielen Kugeln erstellt wird. In diese Wolke wird die Kamera platziert, um den Effekt einer Galaxie zu erzeugen. Für die Wolke wird nun ein Loop erstellt, sodass sich die Kugeln auf die Kamera zu bewegen. Sobald eine bestimmte Position hinter der Kamera erreicht ist, springen die Kugeln wieder auf die Startposition zurück und es entsteht ein Effekt, in dem Kugeln permanent auf die Kamera zu fliegen. Die Geschwindigkeit der Kugeln wird durch den Audioinput beeinflusst. In dieses Feld wird ein Torus eingefügt, welcher durch das „Line Material“ seine Struktur erhält. Damit der Torus durch das Audiosignal verändert werden kann, reagiert zum einen die Größe des Torus auf das Eingangssignal und zum anderen wird ein „Noise“ dazu geschaltet, dessen Amplitude ebenfalls auf das Eingangssignal reagiert. Durch das „Noise“ kommt es zu den Änderungen in der Struktur des Torus.
+
+\subsection{Zusätzliche Software zum Verbinden von SunVox und Touch Designer}
+
+Damit Touch-Designer das Audio aus Sunvox empfangen kann, muss entweder ein Loopback-fähiges Audiointerface oder eine weitere Software genutzt werden. Man hat sich nach einigem Ausprobieren für die Software VB-Cable entschieden, welche als virtuelles Audiokabel dient, mit dem sich der Output von Sunvox in den Input von Touch-Designer leiten lässt.
+\\\\
+Ein weiteres Problem war, dass in Windows nur ein Programm zur Zeit von einem MIDI-Controller angesteuert werden kann. Man wollte allerdings Sunvox und Touch-Designer über den gleichen MIDI-Controller ansteuern. Hierfür war eine Kombination aus zwei zusätzlichen Softwares nötig. Die Software loopMidi wird genutzt, um zwei virtuelle MIDI-Geräte für jeweils Sunvox und Touch-Designer zu erzeugen. Dann wird mit der Software MIDI-OX das angeschlossene MIDI-Gerät in die beiden virtuellen MIDI-Geräte geleitet.
+So ist es Möglich, dass die Audio-Visualizer in Touch-Designer auf das Audio aus Sunvox reagieren können und mit einem einzelnen MIDI-Controller beide Softwares angesteuert werden können.
 
 \section{Fazit}
 
 \subsection{Zusammenfassung}
 
-Zu SunVox lässt sich insgesamt sagen, dass es für Audiosynthese und elektronische Musik für ein kostenloses Programm ein mächtiges Werkzeug ist. Leider ist es eher darauf programmiert, Songs zu gestalten und zu produzieren und weniger, selbst als Instrument genutzt zu werden. Das führte eben dazu, dass in der Ausgestaltung der Installation einige Kompromisse gefällt werden mussten, da einfache Funktionen wie ein Shortcut zur Aufnahme von Samples in der Software nicht vorhanden sind. Jedoch lässt sich, was den Synthesizer angeht, ein positives Bild ziehen. Trotz der teilweise umständlichen Steuerung von SunVox ist das Ergebnis ein guter Granular Synthesizer, der sich kreativ spielen lässt und mit den Visuals aus TouchDesigner harmoniert.
+\subsubsection{SunVox}
+
+Zu SunVox lässt sich insgesamt sagen, dass es für Audiosynthese und elektronische Musik für ein kostenloses Programm ein mächtiges Werkzeug ist. Leider ist es eher darauf programmiert, Songs zu gestalten und zu produzieren und weniger, selbst als Instrument genutzt zu werden. Das führte dazu, dass in der Ausgestaltung der Installation einige Kompromisse vereinbart werden mussten, da einfache Funktionen wie ein Shortcut zur Aufnahme von Samples in der Software nicht vorhanden sind. Jedoch lässt sich, in Bezug auf den Synthesizer, ein positives Bild ziehen. Trotz der teilweise umständlichen Steuerung von SunVox ist das Ergebnis ein guter Granular Synthesizer, der sich kreativ spielen lässt und mit den Visuals aus TouchDesigner harmoniert.
+
+\subsubsection{Touch Designer}
+
+Nach ein paar Wochen, die man im Touch Designer Gewerk brauchte, um sich in der Software zurecht zu finden, hat man angefangen selbst Visuals zu bauen. Von diesen wurden sechs ausgesucht, zwischen denen im Finalen Projekt umgeschaltet werden konnte. Zusätzlich hätte man gern in Touch-Designer noch mehr MIDI-Daten des Controllers eingebunden und Lichter im Raum über DMX angesteuert. Die wichtigsten Funktionalitäten, konnten aber gut umsetzt werden. 
 
 \subsection{Ausblick}
 
-\subsection{Hardware}
+Trotz der Tatsache, dass man mit dem Ergebnis zufrieden sein kann, gibt es einige Punkte, die noch umgesetzt werden können bzw. die einem für Austellungen geeignetem VisuSynth (z.B. auf dem Rundgang Finkenau) beitragen würden:
+\begin{itemize}
+  \item Die Aufnahme über den Mikrocontroller ansteuern mit dem Ziel das Setup ohne Laptopdisplay, Maus und Tastatur umzusetzen.
+  \item Ein kleines Display auf dem die Waveform der Aufnahme angezeigt wird.
+  \item Eine Möglichkeit zum Spielen von Noten in den MIDI-Controller einbauen . So wäre das zusätzliche MIDI-Keyboard nicht nötig.
+   \item Einen Reset-Knopf einbauen, falls ein unerträglicher Sound erzeugt wurde oder gar nichts passiert.
+   \item Einbindung der MIDI-Parameter in die Touch-Designer-Visuals.
+   \item Licht für die Installation über DMX audioreaktiv ansteuern.
+   \item Mehr Visuals und reaktivere Visuals (häufig haben sie nur bei viel Bass stark reagiert).
 
-\subsection{Touch Designer}
+\end{itemize}
 
-\section{Systembeschreibung}
-
-Die Systembeschreibung dient der Konkretisierung der Use-Cases sowie ihrer Umsetzung. Dabei werden die Anforderungen mithilfe der MoSCoW-Methode erläutert und die Komponenten der Umsetzung durch ein Systemabbild dargestellt.
-
-\subsection{MoSCoW Priorisierung}
-
-Die Hauptpriorität des Projekts liegt in der Erfüllung der Produktvision, die darauf abzielt, Audio und Video interaktiv zu gestalten. Während zahlreiche weitere Funktionen wünschenswert oder teilweise optional sind, ist es entscheidend, das Produkt so zugänglich wie möglich für Personen zu gestalten, die keine Erfahrung mit Synthesizern oder Videoanimation haben. Die Bedienung soll intuitiv und benutzerfreundlich gestaltet sein.
-\begin{enumerate}[]
-\item \textbf{Must}
-  \begin{enumerate}[-]
-  \item Die Synthese der Audiospur wird verarbeitet.
-  \item Audiospur wird interaktiv durch die Nutzenden verändert.
-  \item Die Interaktion wird durch digitale Visualisierungen dargestellt.
-  \end{enumerate}
-\item \textbf{Should}
-  \begin{enumerate}[-]
-  \item Die Aufnahme am Mikrofon wird zur Verarbeitung gespeichert.
-  \item granulare Synthese mit den Parametern Grain Pitch, Grain Speed, Grain Scan und Reverb.
-  \item Visualisierungen werden durch TouchDesigner entwickelt und wiedergegeben.
-  \end{enumerate}
-\item \textbf{Could}
-  \begin{enumerate}[-]
-  \item Die Aufnahme am Mikrofon wird in Echtzeit verarbeitet.
-  \item Die entstandene Waveform der Audiospur kann für die Nutzenden angezeigt werden.
-  \item Der Audio-Pitch kann an einem MIDI-Keyboard gesteuert werden.
-  \item Es gibt mehrere Designs durch TouchDesigner.
-  \item Die Nutzenden können aus mehreren Designs selbst wählen.
-  \end{enumerate}
-\item \textbf{Won't}
-  \begin{enumerate}[-]
-  \item zu viele Ablenkungen des Users (zweite GUI, etc.).
-  \item zu komplexe Bedienung des Controllers für die Nutzenden.
-  \end{enumerate}
-\end{enumerate}
-
-\subsection{Der Systemaufbau}
-
-Die Nutzenden haben verschiedene Bedienungsmöglichkeiten zur Verfügung. Dazu gehören ein Mikrofon, dessen Aufnahmen als Grundlage für den Granular-Synthesizer dienen, Knöpfe zum Starten und Stoppen der Mikrofonaufnahme, Potentiometer und Slider, die die Steuerung der Synthesizer-Parameter ermöglichen, sowie ein MIDI-Keyboard zur Tonhöhenkontrolle des Synthesizers.\\\\
-Zusätzlich könnte es eine Anzeige der aufgenommenen Audiospur in Form einer Waveform geben. Der Mikrocontroller und das Keyboard senden MIDI-Daten an einen Computer, auf dem die Audiosynthese der zuvor aufgenommenen Audiodatei stattfindet. Das resultierende Audiosignal wird zum einen über Lautsprecher im Raum wiedergegeben und zum anderen zusammen mit den MIDI-Daten an TouchDesigner weitergeleitet. Sowohl Audio als auch MIDI beeinflussen die Visualisierung, die über einen Beamer mittels HDMI in den Raum projiziert wird.
-\begin{center}
- \includegraphics[scale=0.43]{Blockschaltbild}
- \captionof{figure}{Blockschaltbild des kompletten Systems${}^{2}$}
-\end{center}
-
-\footnotetext[2]{Miro Board Grafik}
-
-\newpage
-\subsection{Use Cases}
-Die Use Cases sind im folgenden Szenario beschrieben:\\
-Eine Person tritt an die Installation heran und beginnt, Klänge durch die Verwendung des Mikrofons aufzunehmen. Mit den Poti's und Schiebereglern steuert die Person die Klang- und visuellen Effekte. Durch das MIDI-Keyboard werden die Töne gesteuert. Die aufgenommenen Audiospuren und manipulierten visuellen Effekte werden in Echtzeit wiedergegeben, sodass die Nutzenden eine unmittelbare kreative Interaktion erleben.
-\begin{center}
- \includegraphics[scale=0.4]{usecases2.png}
- \captionof{figure}{Usecase Diagramm des Projekts${}^{3}$}
-\end{center}
-\footnotetext[3]{Miro Board Grafik}
-\newpage
-\section{Roadmap}
-Die Roadmap bietet einen zeitlichen Rahmen für das Projekt. Sie enthält alle Projektwochen und einen konzipierten Ablaufplan. Dieser kann sich gemäß den Prinzipien des agilen Projektmanagements während des Projekts verändern.
-\begin{flushleft}
- \includegraphics[scale=0.4]{road1.png}
- \captionof{figure}{Roadmap Teil 1${}^{4}$}
-\end{flushleft}
-\footnotetext[4]{Miro Board Grafik}
-\begin{flushleft}
- \includegraphics[scale=0.4]{road2.png}
- \captionof{figure}{Roadmap Teil 2}
-\end{flushleft}
-\begin{flushleft}
- \includegraphics[scale=0.4]{road3.png}
- \captionof{figure}{Roadmap Teil 3}
-\end{flushleft}
+\section{Quellenverzeichnis}
 
 \end{document}

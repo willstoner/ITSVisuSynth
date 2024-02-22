@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.28)  20 FEB 2024 19:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.28)  22 FEB 2024 20:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -591,339 +591,650 @@ i/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./HAW_Marke_RGB_
 \openout3 = `Dokumentation.toc'.
 
  [2]
-<Rauminstallation.jpeg, id=14, 3011.25pt x 3011.25pt>
+Underfull \hbox (badness 10000) in paragraph at lines 166--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--184
+
+ []
+
+
+Overfull \hbox (9.69101pt too wide) in paragraph at lines 178--184
+\T1/lmr/m/n/12 In den 1960er Jah-ren wur-den die er-sten ana-lo-gen Syn-the-si-
+zer vor-ge-stellt. Am ein-flussreichs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--191
+
+ []
+
+[3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 200--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--204
+
+ []
+
+<Rauminstallation.jpeg, id=20, 3011.25pt x 3011.25pt>
 File: Rauminstallation.jpeg Graphic file (type jpg)
 <use Rauminstallation.jpeg>
-Package pdftex.def Info: Rauminstallation.jpeg  used on input line 170.
-(pdftex.def)             Requested size: 179.24963pt x 179.24281pt.
-Class scrartcl Info: Workaround for not recommended usage of \\ or
-(scrartcl)           \newlinein caption text  on input line 171.
-File: Rauminstallation.jpeg Graphic file (type jpg)
-<use Rauminstallation.jpeg>
-Package pdftex.def Info: Rauminstallation.jpeg  used on input line 175.
-(pdftex.def)             Requested size: 179.24963pt x 179.24281pt.
-Class scrartcl Info: Workaround for not recommended usage of \\ or
-(scrartcl)           \newlinein caption text  on input line 176.
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--181
-
- []
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 182.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 182.
-[3{C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <
-./Rauminstallation.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 188--192
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--192
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--192
-
- []
-
-File: Rauminstallation.jpeg Graphic file (type jpg)
-<use Rauminstallation.jpeg>
-Package pdftex.def Info: Rauminstallation.jpeg  used on input line 194.
+Package pdftex.def Info: Rauminstallation.jpeg  used on input line 206.
 (pdftex.def)             Requested size: 331.23853pt x 331.23853pt.
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 200--206
+[5 <./Rauminstallation.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 212--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--206
+Underfull \hbox (badness 10000) in paragraph at lines 212--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--206
+Underfull \hbox (badness 10000) in paragraph at lines 212--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--206
+Underfull \hbox (badness 10000) in paragraph at lines 212--218
 
  []
 
 <Blockschaltbild.png, id=24, 890.72775pt x 319.1925pt>
 File: Blockschaltbild.png Graphic file (type png)
 <use Blockschaltbild.png>
-Package pdftex.def Info: Blockschaltbild.png  used on input line 208.
+Package pdftex.def Info: Blockschaltbild.png  used on input line 220.
 (pdftex.def)             Requested size: 445.36278pt x 159.59586pt.
-[5 <./Blockschaltbild.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 220--228
+[6 <./Blockschaltbild.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 228--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--228
+Underfull \hbox (badness 10000) in paragraph at lines 228--233
 
  []
 
-[6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 238--243
-
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+34.
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (11.12396pt too wide) in paragraph at lines 236--237
+[]\T1/lmr/bx/n/12 Visuals / Touch-De-si-gner\T1/lmr/m/n/12 : Er-stel-lung von v
+er-schie-de-nen TouchDesigner-Projekten,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--243
-
- []
-
-<sunvox_1.jpg, id=40, 376.90813pt x 183.18437pt>
-File: sunvox_1.jpg Graphic file (type jpg)
-<use sunvox_1.jpg>
-Package pdftex.def Info: sunvox_1.jpg  used on input line 245.
-(pdftex.def)             Requested size: 339.21417pt x 164.8644pt.
-[9 <./sunvox_1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 254--257
-
- []
-
-
-Underfull \hbox (badness 1342) in paragraph at lines 254--257
-\T1/lmr/m/n/12 In die-sem Audio-Visualizer wird
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 254--257
-\T1/lmr/m/n/12 das Spek-trum des Audio-Inputs
- []
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 254--257
-\T1/lmr/m/n/12 Mir-ror und an-de-ren TOP-Nodes
- []
-
-
-Underfull \hbox (badness 1571) in paragraph at lines 254--257
-\T1/lmr/m/n/12 ei-ne Ramp- und einen Lookup-
- []
-
-<sunvox_2.png, id=44, 115.9605pt x 108.405pt>
-File: sunvox_2.png Graphic file (type png)
-<use sunvox_2.png>
-Package pdftex.def Info: sunvox_2.png  used on input line 260.
-(pdftex.def)             Requested size: 179.24963pt x 167.57938pt.
-Class scrartcl Info: Workaround for not recommended usage of \\ or
-(scrartcl)           \newlinein caption text  on input line 261.
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--269
-
- []
-
-
-Underfull \hbox (badness 2717) in paragraph at lines 266--269
-\T1/lmr/m/n/12 Eine Röh-re wird ver-formt und
- []
-
-
-Underfull \hbox (badness 2310) in paragraph at lines 266--269
-\T1/lmr/m/n/12 durch ein Noise-TOP ge-schickt,
- []
-
-<sunvox_3.png, id=45, 126.4725pt x 111.033pt>
-File: sunvox_3.png Graphic file (type png)
-<use sunvox_3.png>
-Package pdftex.def Info: sunvox_3.png  used on input line 273.
-(pdftex.def)             Requested size: 126.47218pt x 111.03271pt.
-Class scrartcl Info: Workaround for not recommended usage of \\ or
-(scrartcl)           \newlinein caption text  on input line 274.
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--282
-
- []
-
-
-Underfull \hbox (badness 1342) in paragraph at lines 279--282
-\T1/lmr/m/n/12 In die-sem Audio-Visualizer wird
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 279--282
-\T1/lmr/m/n/12 das Spek-trum des Audio-Inputs
- []
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 279--282
-\T1/lmr/m/n/12 Mir-ror und an-de-ren TOP-Nodes
- []
-
-
-Underfull \hbox (badness 1571) in paragraph at lines 279--282
-\T1/lmr/m/n/12 ei-ne Ramp- und einen Lookup-
- []
-
-<sunvox_4.png, id=46, 123.516pt x 120.5595pt>
-File: sunvox_4.png Graphic file (type png)
-<use sunvox_4.png>
-Package pdftex.def Info: sunvox_4.png  used on input line 285.
-(pdftex.def)             Requested size: 179.24963pt x 174.9576pt.
-Class scrartcl Info: Workaround for not recommended usage of \\ or
-(scrartcl)           \newlinein caption text  on input line 286.
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--294
-
- []
-
-
-Underfull \hbox (badness 1342) in paragraph at lines 291--294
-\T1/lmr/m/n/12 In die-sem Audio-Visualizer wird
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 291--294
-\T1/lmr/m/n/12 das Spek-trum des Audio-Inputs
- []
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 291--294
-\T1/lmr/m/n/12 Mir-ror und an-de-ren TOP-Nodes
- []
-
-
-Underfull \hbox (badness 1571) in paragraph at lines 291--294
-\T1/lmr/m/n/12 ei-ne Ramp- und einen Lookup-
- []
-
-<sunvox_5.png, id=47, 124.83pt x 110.7045pt>
-File: sunvox_5.png Graphic file (type png)
-<use sunvox_5.png>
-Package pdftex.def Info: sunvox_5.png  used on input line 297.
-(pdftex.def)             Requested size: 179.24963pt x 158.9667pt.
-Class scrartcl Info: Workaround for not recommended usage of \\ or
-(scrartcl)           \newlinein caption text  on input line 298.
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--306
-
- []
-
-
-Underfull \hbox (badness 1342) in paragraph at lines 303--306
-\T1/lmr/m/n/12 In die-sem Audio-Visualizer wird
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 303--306
-\T1/lmr/m/n/12 das Spek-trum des Audio-Inputs
- []
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 303--306
-\T1/lmr/m/n/12 Mir-ror und an-de-ren TOP-Nodes
- []
-
-
-Underfull \hbox (badness 1571) in paragraph at lines 303--306
-\T1/lmr/m/n/12 ei-ne Ramp- und einen Lookup-
- []
-
-<sunvox_6.jpg, id=48, 136.656pt x 114.318pt>
-File: sunvox_6.jpg Graphic file (type jpg)
-<use sunvox_6.jpg>
-Package pdftex.def Info: sunvox_6.jpg  used on input line 309.
-(pdftex.def)             Requested size: 179.24963pt x 149.96523pt.
-Class scrartcl Info: Workaround for not recommended usage of \\ or
-(scrartcl)           \newlinein caption text  on input line 310.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10 <./sunvox_2.png> <./sunvox_3.png>] [11 <./sunvox_4.png> <./sunvox_5.png>]
-
-LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 336.
-
-
-LaTeX Warning: The counter will not be printed.
-             The label is: - on input line 338.
-
-
-LaTeX Warning: The counter will not be printed.
-             The label is: - on input line 344.
-
-[12 <./sunvox_6.jpg>]
-
-LaTeX Warning: The counter will not be printed.
-             The label is: - on input line 350.
-
-
-LaTeX Warning: The counter will not be printed.
-             The label is: - on input line 358.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 366--368
-
- []
-
-File: Blockschaltbild.png Graphic file (type png)
-<use Blockschaltbild.png>
-Package pdftex.def Info: Blockschaltbild.png  used on input line 369.
-(pdftex.def)             Requested size: 383.00546pt x 137.25009pt.
-[13]
-<usecases2.png, id=66, 523.20468pt x 355.3275pt>
-File: usecases2.png Graphic file (type png)
-<use usecases2.png>
-Package pdftex.def Info: usecases2.png  used on input line 380.
-(pdftex.def)             Requested size: 209.27815pt x 142.12846pt.
- [14 <./usecases2.png>]
-<road1.png, id=71, 1014.03844pt x 574.39594pt>
+<road1.png, id=30, 1014.03844pt x 574.39594pt>
 File: road1.png Graphic file (type png)
 <use road1.png>
-Package pdftex.def Info: road1.png  used on input line 388.
-(pdftex.def)             Requested size: 405.60818pt x 229.75429pt.
-<road2.png, id=72, 881.54344pt x 585.68813pt>
-File: road2.png Graphic file (type png)
-<use road2.png>
-Package pdftex.def Info: road2.png  used on input line 393.
-(pdftex.def)             Requested size: 352.61113pt x 234.27109pt.
-<road3.png, id=73, 873.2625pt x 578.16pt>
-File: road3.png Graphic file (type png)
-<use road3.png>
-Package pdftex.def Info: road3.png  used on input line 397.
-(pdftex.def)             Requested size: 349.29881pt x 231.2599pt.
- [15 <./road1.png> <./road2.png>]
+Package pdftex.def Info: road1.png  used on input line 244.
+(pdftex.def)             Requested size: 268.8813pt x 152.30183pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--246
+\T1/lmr/m/n/12 gen.
+ []
+
+
+Overfull \hbox (1.05383pt too wide) in paragraph at lines 248--250
+\T1/lmr/m/n/12 Zudem wur-de ei-ne Road-
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 248--250
+\T1/lmr/m/n/12 map er-stellt, um den
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 248--250
+\T1/lmr/m/n/12 es ge-nug Puf-fer ein-
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 248--250
+\T1/lmr/m/n/12 rungs-ge-mäÿ im-mer zu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
+
+ []
+
+[7{C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} 
+<./road1.png>]
+<sunvox_1.png, id=37, 593.96906pt x 258.21469pt>
+File: sunvox_1.png Graphic file (type png)
+<use sunvox_1.png>
+Package pdftex.def Info: sunvox_1.png  used on input line 264.
+(pdftex.def)             Requested size: 291.28238pt x 126.63268pt.
+
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+271.
+
+<sunvox_4.png, id=38, 377.91188pt x 249.93375pt>
+File: sunvox_4.png Graphic file (type png)
+<use sunvox_4.png>
+Package pdftex.def Info: sunvox_4.png  used on input line 273.
+(pdftex.def)             Requested size: 291.28238pt x 192.64026pt.
+
+Underfull \hbox (badness 2302) in paragraph at lines 267--275
+\T1/lmr/m/n/12 so-ge-nann-te Mul-ti-Synth
+ []
+
+
+Underfull \hbox (badness 5288) in paragraph at lines 267--275
+\T1/lmr/m/n/12 Mo-dul, wel-ches all-ge-
+ []
+
+
+Overfull \hbox (11.01102pt too wide) in paragraph at lines 267--275
+\T1/lmr/m/n/12 mein ge-nutzt wer-den kann,
+ []
+
+
+Underfull \hbox (badness 7540) in paragraph at lines 267--275
+\T1/lmr/m/n/12 stimm-te Ei-gen-schaf-ten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--275
+
+ []
+
+[8 <./sunvox_1.png>]
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 27
+5.
+
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+282.
+
+<sunvox_3.png, id=43, 279.29344pt x 359.84438pt>
+File: sunvox_3.png Graphic file (type png)
+<use sunvox_3.png>
+Package pdftex.def Info: sunvox_3.png  used on input line 284.
+(pdftex.def)             Requested size: 201.65755pt x 259.8235pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
+[][]\T1/lmr/m/n/12 Parameter des Gra-nu-la-tor
+ []
+
+
+Overfull \hbox (0.79306pt too wide) in paragraph at lines 277--286
+\T1/lmr/m/n/12 ge-wünsch-ten Funk-tio-nen
+ []
+
+
+Overfull \hbox (10.51587pt too wide) in paragraph at lines 277--286
+\T1/lmr/m/n/12 zum Auf-neh-men und Rein-
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 277--286
+\T1/lmr/m/n/12 im In-ter-face aus-wähl-
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 277--286
+\T1/lmr/m/n/12 stel-lung ei-ner vollends
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 277--286
+\T1/lmr/m/n/12 Mi-kro-con-trol-ler ge-steu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--286
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--286
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--286
+
+ []
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 28
+6.
+
+[9 <./sunvox_4.png>]
+<sunvox_2.png, id=48, 1066.7353pt x 330.48468pt>
+File: sunvox_2.png Graphic file (type png)
+<use sunvox_2.png>
+Package pdftex.def Info: sunvox_2.png  used on input line 291.
+(pdftex.def)             Requested size: 448.13095pt x 138.83287pt.
+
+Underfull \hbox (badness 1412) in paragraph at lines 288--294
+[]\T1/lmr/m/n/12 Somit stand schnell ein Pro-jekt, dass
+ []
+
+
+Underfull \hbox (badness 4967) in paragraph at lines 288--294
+\T1/lmr/m/n/12 grund-le-gend als Gra-nu-lar Syn-the-si-zer
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 288--294
+\T1/lmr/m/n/12 auf-ga-be, aus-zu-lo-ten, wel-che an-steu-er-
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 288--294
+\T1/lmr/m/n/12 ba-ren Pa-ra-me-ter sich in Sun-Vox am
+ []
+
+
+Underfull \hbox (badness 2426) in paragraph at lines 288--294
+\T1/lmr/m/n/12 be-sten für die Be-die-nung an un-se-rer
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 288--294
+\T1/lmr/m/n/12 den zur Aus-wahl, die teil-wei-se stark
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 288--294
+\T1/lmr/m/n/12 Um es nicht zu kom-pli-ziert zu hal-
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 288--294
+\T1/lmr/m/n/12 ten, da es oh-ne-hin mit ei-nem ge-wis-
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 288--294
+\T1/lmr/m/n/12 the-si-zer zu spie-len, wur-den am En-
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 288--294
+\T1/lmr/m/n/12 de aber nur die wich-tig-sten Pa-ra-me-
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 288--294
+\T1/lmr/m/n/12 tor-ti-on ge-mappt (letz-te-re wa-ren eben-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--294
+
+ []
+
+[10 <./sunvox_3.png> <./sunvox_2.png>]
+<sunvox_5.png, id=54, 377.91188pt x 248.42813pt>
+File: sunvox_5.png Graphic file (type png)
+<use sunvox_5.png>
+Package pdftex.def Info: sunvox_5.png  used on input line 298.
+(pdftex.def)             Requested size: 291.28238pt x 191.47978pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--300
+
+ []
+
+
+Overfull \hbox (0.16515pt too wide) in paragraph at lines 302--303
+\T1/lmr/m/n/12 Als Al-ter-na-ti-ve lässt sich
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 302--303
+\T1/lmr/m/n/12 muss aber je-des Mal
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 302--303
+\T1/lmr/m/n/12 macht wer-den, so-bald
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 302--303
+\T1/lmr/m/n/12 ein neu-es Sam-ple ge-
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 302--303
+\T1/lmr/m/n/12 Hard-wa-re steu-ern soll-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--313
+
+ []
+
+[11 <./sunvox_5.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+<wokwi.png, id=59, 664.73344pt x 258.21469pt>
+File: wokwi.png Graphic file (type png)
+<use wokwi.png>
+Package pdftex.def Info: wokwi.png  used on input line 330.
+(pdftex.def)             Requested size: 291.28238pt x 113.14989pt.
+
+Underfull \hbox (badness 2707) in paragraph at lines 334--340
+\T1/lmr/m/n/12 ste Schal-tung mit ei-
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 334--340
+\T1/lmr/m/n/12 ser dann um die MI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--340
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--340
+
+ []
+
+[12 <./wokwi.png>]
+<code_1.png, id=64, 667.74469pt x 633.11531pt>
+File: code_1.png Graphic file (type png)
+<use code_1.png>
+Package pdftex.def Info: code_1.png  used on input line 345.
+(pdftex.def)             Requested size: 333.87152pt x 316.55687pt.
+<code_2.png, id=65, 353.06906pt x 140.77594pt>
+File: code_2.png Graphic file (type png)
+<use code_2.png>
+Package pdftex.def Info: code_2.png  used on input line 351.
+(pdftex.def)             Requested size: 176.53409pt x 70.38779pt.
+ [13 <./code_1.png> <./code_2.png>] [14]
+<hw_1.jpg, id=75, 706.13812pt x 616.55344pt>
+File: hw_1.jpg Graphic file (type jpg)
+<use hw_1.jpg>
+Package pdftex.def Info: hw_1.jpg  used on input line 368.
+(pdftex.def)             Requested size: 211.84306pt x 184.96745pt.
+<hw_2.png, id=76, 878.53218pt x 567.62062pt>
+File: hw_2.png Graphic file (type png)
+<use hw_2.png>
+Package pdftex.def Info: hw_2.png  used on input line 374.
+(pdftex.def)             Requested size: 263.56168pt x 170.28749pt.
+<hw_3.png, id=77, 481.04718pt x 407.27156pt>
+File: hw_3.png Graphic file (type png)
+<use hw_3.png>
+Package pdftex.def Info: hw_3.png  used on input line 382.
+(pdftex.def)             Requested size: 240.523pt x 203.63527pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--385
+
+ []
+
+[15 <./hw_1.jpg> <./hw_2.png>] [16 <./hw_3.png>]
+<td_1.jpg, id=86, 376.90813pt x 183.18437pt>
+File: td_1.jpg Graphic file (type jpg)
+<use td_1.jpg>
+Package pdftex.def Info: td_1.jpg  used on input line 397.
+(pdftex.def)             Requested size: 313.69029pt x 152.45946pt.
+
+Underfull \hbox (badness 4229) in paragraph at lines 401--404
+\T1/lmr/m/n/12 des ^^RCross^^P geht ein
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 401--404
+\T1/lmr/m/n/12 schen den Vi-suals be-
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 401--404
+\T1/lmr/m/n/12 nö-tigt wird. Am Aus-
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 401--404
+\T1/lmr/m/n/12 den Über-gang gibt es
+ []
+
+
+Overfull \hbox (1.28519pt too wide) in paragraph at lines 401--404
+\T1/lmr/m/n/12 einen au-to-ma-ti-schen und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--404
+
+ []
+
+[17 <./td_1.jpg>]
+Underfull \hbox (badness 1342) in paragraph at lines 412--414
+[]\T1/lmr/m/n/12 In die-sem Audio-Visualizer wird
+ []
+
+<td_2.png, id=90, 115.9605pt x 108.405pt>
+File: td_2.png Graphic file (type png)
+<use td_2.png>
+Package pdftex.def Info: td_2.png  used on input line 418.
+(pdftex.def)             Requested size: 224.06548pt x 209.47836pt.
+
+Underfull \hbox (badness 2717) in paragraph at lines 424--426
+[]\T1/lmr/m/n/12 Eine Röh-re wird ver-formt und
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 424--426
+\T1/lmr/m/n/12 durch ein Noise-TOP ge-schickt.
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 424--426
+\T1/lmr/m/n/12 Qua-dra-ten ab-ge-bil-det. Das Noi-
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 424--426
+\T1/lmr/m/n/12 se wird durch den Audio-Input
+ []
+
+
+Underfull \hbox (badness 5417) in paragraph at lines 424--426
+\T1/lmr/m/n/12 ver-än-dert, wo-durch die Audio-
+ []
+
+<td_3.png, id=91, 126.4725pt x 111.033pt>
+File: td_3.png Graphic file (type png)
+<use td_3.png>
+Package pdftex.def Info: td_3.png  used on input line 430.
+(pdftex.def)             Requested size: 224.06548pt x 196.71643pt.
+
+Underfull \hbox (badness 1577) in paragraph at lines 439--441
+[]\T1/lmr/m/n/12 Hier wird ei-ne ver-form-te Ku-gel
+ []
+
+<td_4.png, id=92, 123.516pt x 120.5595pt>
+File: td_4.png Graphic file (type png)
+<use td_4.png>
+Package pdftex.def Info: td_4.png  used on input line 445.
+(pdftex.def)             Requested size: 224.06548pt x 218.70113pt.
+
+Underfull \hbox (badness 1331) in paragraph at lines 451--453
+[]\T1/lmr/m/n/12 Dieses Vi-su-al ba-siert auf ei-nem
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 451--453
+\T1/lmr/m/n/12 tur. Um den Ef-fekt zu ver-stär-
+ []
+
+<td_6.jpg, id=93, 136.656pt x 114.318pt>
+File: td_6.jpg Graphic file (type jpg)
+<use td_6.jpg>
+Package pdftex.def Info: td_6.jpg  used on input line 457.
+(pdftex.def)             Requested size: 224.06548pt x 187.45828pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--460
+
+ []
+
+[18 <./td_2.png> <./td_3.png>] [19 <./td_4.png> <./td_6.jpg>]
+<td_5.png, id=104, 124.83pt x 110.7045pt>
+File: td_5.png Graphic file (type png)
+<use td_5.png>
+Package pdftex.def Info: td_5.png  used on input line 464.
+(pdftex.def)             Requested size: 268.8813pt x 238.48807pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--466
+\T1/lmr/bx/n/12 Donut
+ []
+
+
+Overfull \hbox (5.7008pt too wide) in paragraph at lines 468--469
+\T1/lmr/m/n/12 Für den Hin-ter-grund wird
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 468--469
+\T1/lmr/m/n/12 se^^P Tops ei-ne Wol-ke
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 468--469
+\T1/lmr/m/n/12 aus vie-len Ku-geln er-
+ []
+
+
+Overfull \hbox (16.80344pt too wide) in paragraph at lines 472--476
+\T1/lmr/m/n/12 Damit Touch-Designer das Au-dio aus Sun-vox emp-fan-gen kann, mu
+ss ent-we-der ein Loopback-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 472--476
+
+ []
+
+[20 <./td_5.png>] [21]
 \tf@thm=\write4
 \openout4 = `Dokumentation.thm'.
 
- [16 <./road3.png>] (Dokumentation.aux)
+ [22] (Dokumentation.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-23>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 10296 strings out of 474718
- 219191 string characters out of 5748456
- 1941036 words of memory out of 5000000
- 32197 multiletter control sequences out of 15000+600000
- 622102 words of font info for 86 fonts, out of 8000000 for 9000
+ 10418 strings out of 474718
+ 221599 string characters out of 5748456
+ 1937036 words of memory out of 5000000
+ 32325 multiletter control sequences out of 15000+600000
+ 608477 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,20n,107p,10910b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,19n,107p,10910b,494s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
-b><C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
-><C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
-<C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><
-C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:
-/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/U
-sers/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/U
-sers/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Dokumentation.pdf (16 pages, 1711006 bytes).
+b><C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
+><C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
+<C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb>
+<C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pf
+b>
+Output written on Dokumentation.pdf (22 pages, 2693259 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
+ 141 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
