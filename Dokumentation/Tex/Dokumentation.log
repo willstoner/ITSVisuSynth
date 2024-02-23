@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.28)  22 FEB 2024 20:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.28)  23 FEB 2024 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -468,8 +468,156 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \WF@everypar=\toks46
 Package: wrapfig 2003/01/31  v 3.6
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 12
-9.
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-10-21 v7.01c Hypertext links for LaTeX
+
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-10-05 v2.54 Cross-referencing by name of section
+
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count299
+)
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count300
+)
+\@linkdim=\dimen163
+\Hy@linkcounter=\count301
+\Hy@pagecounter=\count302
+
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-10-21 v7.01c Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count303
+
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-10-21 v7.01c Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4168.
+Package hyperref Info: Link nesting OFF on input line 4173.
+Package hyperref Info: Hyper index ON on input line 4176.
+Package hyperref Info: Plain pages OFF on input line 4183.
+Package hyperref Info: Backreferencing OFF on input line 4188.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4435.
+\c@Hy@tempcnt=\count304
+
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4773.
+\XeTeXLinkMargin=\dimen164
+
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count305
+\Field@Width=\dimen165
+\Fld@charsize=\dimen166
+Package hyperref Info: Hyper figures OFF on input line 6052.
+Package hyperref Info: Link nesting OFF on input line 6057.
+Package hyperref Info: Hyper index ON on input line 6060.
+Package hyperref Info: backreferencing OFF on input line 6067.
+Package hyperref Info: Link coloring OFF on input line 6072.
+Package hyperref Info: Link coloring with OCG OFF on input line 6077.
+Package hyperref Info: PDF/A mode OFF on input line 6082.
+
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count306
+\c@Item=\count307
+\c@Hfootnote=\count308
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-10-21 v7.01c Hyperref driver for pdfTeX
+
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count309
+\c@bookmark@seq@number=\count310
+
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip79
+)
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 13
+0.
 
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -477,34 +625,38 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 (Dokumentation.aux)
 \openout1 = `Dokumentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
 
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count299
-\scratchdimen=\dimen163
+\scratchcounter=\count311
+\scratchdimen=\dimen167
 \scratchbox=\box59
-\nofMPsegments=\count300
-\nofMParguments=\count301
+\nofMPsegments=\count312
+\nofMParguments=\count313
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count302
-\MPscratchDim=\dimen164
-\MPnumerator=\count303
-\makeMPintoPDFobject=\count304
+\MPscratchCnt=\count314
+\MPscratchDim=\dimen168
+\MPnumerator=\count315
+\makeMPintoPDFobject=\count316
 \everyMPtoPDFconversion=\toks48
 )
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -517,53 +669,75 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
+Package hyperref Info: Link coloring OFF on input line 130.
+ (Dokumentation.out) (Dokumentation.out)
+\@outlinefile=\write3
+\openout3 = `Dokumentation.out'.
+
+Class scrartcl Info: loading recommended package `bookmark'.
+(scrartcl)           Using `bookmark' together with `hyperref' is recommended,
+(scrartcl)           because of handling of possible bookmark level gaps.
+(scrartcl)           You can avoid loading `bookmark' with KOMA-Script option
+(scrartcl)           `bookmarkpackage=false' before \begin{document} and
+(scrartcl)           you can avoid this message adding:
+(scrartcl)             \usepackage{bookmark}
+(scrartcl)           before \begin{document} on input line 130.
+
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+
+(C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
+)
+\BKM@id=\count317
+))
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-35.
+36.
  (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<HAW_Marke_RGB_300dpi.jpg, id=1, 386.8854pt x 142.3719pt>
+<HAW_Marke_RGB_300dpi.jpg, id=3, 386.8854pt x 142.3719pt>
 File: HAW_Marke_RGB_300dpi.jpg Graphic file (type jpg)
 <use HAW_Marke_RGB_300dpi.jpg>
-Package pdftex.def Info: HAW_Marke_RGB_300dpi.jpg  used on input line 135.
+Package pdftex.def Info: HAW_Marke_RGB_300dpi.jpg  used on input line 136.
 (pdftex.def)             Requested size: 193.44223pt x 71.18576pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-35.
+36.
 
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-35.
+36.
 
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-135.
+136.
 
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-135.
+136.
 
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 135.
+(Font)              <17.28> on input line 136.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 135.
+(Font)              <12> on input line 136.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 135.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 135
+(Font)              <10> on input line 136.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 136
 .
 
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 135
+LaTeX Font Info:    Trying to load font information for U+msb on input line 136
 .
 
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -573,11 +747,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Warning: No \author given.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 140.
+(Font)              <8> on input line 141.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 140.
+(Font)              <6> on input line 141.
 
-Overfull \hbox (134.91216pt too wide) in paragraph at lines 140--155
+Overfull \hbox (134.91216pt too wide) in paragraph at lines 141--156
 []  
  []
 
@@ -587,8 +761,8 @@ Overfull \hbox (134.91216pt too wide) in paragraph at lines 140--155
 {C:/Users/denni/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/denn
 i/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./HAW_Marke_RGB_
 300dpi.jpg>] (Dokumentation.toc)
-\tf@toc=\write3
-\openout3 = `Dokumentation.toc'.
+\tf@toc=\write4
+\openout4 = `Dokumentation.toc'.
 
  [2]
 Underfull \hbox (badness 10000) in paragraph at lines 166--170
@@ -596,645 +770,806 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--170
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--184
+Underfull \hbox (badness 10000) in paragraph at lines 177--183
 
  []
 
 
-Overfull \hbox (9.69101pt too wide) in paragraph at lines 178--184
+Overfull \hbox (9.69101pt too wide) in paragraph at lines 177--183
 \T1/lmr/m/n/12 In den 1960er Jah-ren wur-den die er-sten ana-lo-gen Syn-the-si-
 zer vor-ge-stellt. Am ein-flussreichs-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--184
+Underfull \hbox (badness 10000) in paragraph at lines 177--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--191
+Underfull \hbox (badness 10000) in paragraph at lines 186--190
 
  []
 
 [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 200--204
+Underfull \hbox (badness 10000) in paragraph at lines 199--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--204
+Underfull \hbox (badness 10000) in paragraph at lines 199--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--204
+Underfull \hbox (badness 10000) in paragraph at lines 199--203
 
  []
 
-<Rauminstallation.jpeg, id=20, 3011.25pt x 3011.25pt>
+<Rauminstallation.jpeg, id=77, 3011.25pt x 3011.25pt>
 File: Rauminstallation.jpeg Graphic file (type jpg)
 <use Rauminstallation.jpeg>
-Package pdftex.def Info: Rauminstallation.jpeg  used on input line 206.
+Package pdftex.def Info: Rauminstallation.jpeg  used on input line 205.
 (pdftex.def)             Requested size: 331.23853pt x 331.23853pt.
 [5 <./Rauminstallation.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 212--218
+Underfull \hbox (badness 10000) in paragraph at lines 211--217
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--218
+Underfull \hbox (badness 10000) in paragraph at lines 211--217
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--218
+Underfull \hbox (badness 10000) in paragraph at lines 211--217
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--218
+Underfull \hbox (badness 10000) in paragraph at lines 211--217
 
  []
 
-<Blockschaltbild.png, id=24, 890.72775pt x 319.1925pt>
+<Blockschaltbild.png, id=83, 890.72775pt x 319.1925pt>
 File: Blockschaltbild.png Graphic file (type png)
 <use Blockschaltbild.png>
-Package pdftex.def Info: Blockschaltbild.png  used on input line 220.
+Package pdftex.def Info: Blockschaltbild.png  used on input line 219.
 (pdftex.def)             Requested size: 445.36278pt x 159.59586pt.
 [6 <./Blockschaltbild.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 228--233
+Underfull \hbox (badness 10000) in paragraph at lines 227--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--233
+Underfull \hbox (badness 10000) in paragraph at lines 227--232
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-34.
+33.
 (C:\Users\denni\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (11.12396pt too wide) in paragraph at lines 236--237
+Overfull \hbox (11.12396pt too wide) in paragraph at lines 235--236
 []\T1/lmr/bx/n/12 Visuals / Touch-De-si-gner\T1/lmr/m/n/12 : Er-stel-lung von v
 er-schie-de-nen TouchDesigner-Projekten,
  []
 
-<road1.png, id=30, 1014.03844pt x 574.39594pt>
+<road1.png, id=91, 1014.03844pt x 574.39594pt>
 File: road1.png Graphic file (type png)
 <use road1.png>
-Package pdftex.def Info: road1.png  used on input line 244.
+Package pdftex.def Info: road1.png  used on input line 243.
 (pdftex.def)             Requested size: 268.8813pt x 152.30183pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--246
-\T1/lmr/m/n/12 gen.
+Underfull \hbox (badness 7081) in paragraph at lines 247--249
+\T1/lmr/m/n/12 schei-dend, aus-rei-chend
  []
 
 
-Overfull \hbox (1.05383pt too wide) in paragraph at lines 248--250
-\T1/lmr/m/n/12 Zudem wur-de ei-ne Road-
+Overfull \hbox (3.33833pt too wide) in paragraph at lines 247--249
+\T1/lmr/m/n/12 Puf-fer-zei-ten ein-zu-pla-nen,
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 248--250
-\T1/lmr/m/n/12 map er-stellt, um den
+Underfull \hbox (badness 2818) in paragraph at lines 247--249
+\T1/lmr/m/n/12 zö-ge-run-gen un-ver-meid-
  []
 
 
-Underfull \hbox (badness 6016) in paragraph at lines 248--250
-\T1/lmr/m/n/12 es ge-nug Puf-fer ein-
+Underfull \hbox (badness 6094) in paragraph at lines 247--249
+\T1/lmr/m/n/12 wie ge-plant ver-lau-fen
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 248--250
-\T1/lmr/m/n/12 rungs-ge-mäÿ im-mer zu
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--250
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--250
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
 
  []
 
 [7{C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} 
 <./road1.png>]
-<sunvox_1.png, id=37, 593.96906pt x 258.21469pt>
+<sunvox_1.png, id=100, 593.96906pt x 258.21469pt>
 File: sunvox_1.png Graphic file (type png)
 <use sunvox_1.png>
-Package pdftex.def Info: sunvox_1.png  used on input line 264.
+Package pdftex.def Info: sunvox_1.png  used on input line 263.
 (pdftex.def)             Requested size: 291.28238pt x 126.63268pt.
 
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-271.
+270.
 
-<sunvox_4.png, id=38, 377.91188pt x 249.93375pt>
+<sunvox_4.png, id=101, 377.91188pt x 249.93375pt>
 File: sunvox_4.png Graphic file (type png)
 <use sunvox_4.png>
-Package pdftex.def Info: sunvox_4.png  used on input line 273.
+Package pdftex.def Info: sunvox_4.png  used on input line 272.
 (pdftex.def)             Requested size: 291.28238pt x 192.64026pt.
 
-Underfull \hbox (badness 2302) in paragraph at lines 267--275
+Underfull \hbox (badness 2302) in paragraph at lines 266--274
 \T1/lmr/m/n/12 so-ge-nann-te Mul-ti-Synth
  []
 
 
-Underfull \hbox (badness 5288) in paragraph at lines 267--275
+Underfull \hbox (badness 5288) in paragraph at lines 266--274
 \T1/lmr/m/n/12 Mo-dul, wel-ches all-ge-
  []
 
 
-Overfull \hbox (11.01102pt too wide) in paragraph at lines 267--275
+Overfull \hbox (11.01102pt too wide) in paragraph at lines 266--274
 \T1/lmr/m/n/12 mein ge-nutzt wer-den kann,
  []
 
 
-Underfull \hbox (badness 7540) in paragraph at lines 267--275
+Underfull \hbox (badness 7540) in paragraph at lines 266--274
 \T1/lmr/m/n/12 stimm-te Ei-gen-schaf-ten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--275
+Underfull \hbox (badness 10000) in paragraph at lines 266--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--275
+Underfull \hbox (badness 10000) in paragraph at lines 266--274
 
  []
 
 [8 <./sunvox_1.png>]
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 27
-5.
+4.
 
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-282.
+281.
 
-<sunvox_3.png, id=43, 279.29344pt x 359.84438pt>
+<sunvox_3.png, id=108, 279.29344pt x 359.84438pt>
 File: sunvox_3.png Graphic file (type png)
 <use sunvox_3.png>
-Package pdftex.def Info: sunvox_3.png  used on input line 284.
+Package pdftex.def Info: sunvox_3.png  used on input line 283.
 (pdftex.def)             Requested size: 201.65755pt x 259.8235pt.
+Class scrartcl Info: Workaround for not recommended usage of \\ or
+(scrartcl)           \newlinein caption text  on input line 284.
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
-[][]\T1/lmr/m/n/12 Parameter des Gra-nu-la-tor
- []
-
-
-Overfull \hbox (0.79306pt too wide) in paragraph at lines 277--286
+Overfull \hbox (0.79306pt too wide) in paragraph at lines 276--285
 \T1/lmr/m/n/12 ge-wünsch-ten Funk-tio-nen
  []
 
 
-Overfull \hbox (10.51587pt too wide) in paragraph at lines 277--286
+Overfull \hbox (10.51587pt too wide) in paragraph at lines 276--285
 \T1/lmr/m/n/12 zum Auf-neh-men und Rein-
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 277--286
+Underfull \hbox (badness 4621) in paragraph at lines 276--285
 \T1/lmr/m/n/12 im In-ter-face aus-wähl-
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 277--286
+Underfull \hbox (badness 2050) in paragraph at lines 276--285
 \T1/lmr/m/n/12 stel-lung ei-ner vollends
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 277--286
+Underfull \hbox (badness 1584) in paragraph at lines 276--285
 \T1/lmr/m/n/12 Mi-kro-con-trol-ler ge-steu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--286
+Underfull \hbox (badness 10000) in paragraph at lines 276--285
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--286
+Underfull \hbox (badness 10000) in paragraph at lines 276--285
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--286
+Underfull \hbox (badness 10000) in paragraph at lines 276--285
 
  []
 
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 28
-6.
+5.
 
 [9 <./sunvox_4.png>]
-<sunvox_2.png, id=48, 1066.7353pt x 330.48468pt>
+<sunvox_2.png, id=115, 1066.7353pt x 330.48468pt>
 File: sunvox_2.png Graphic file (type png)
 <use sunvox_2.png>
-Package pdftex.def Info: sunvox_2.png  used on input line 291.
+Package pdftex.def Info: sunvox_2.png  used on input line 290.
 (pdftex.def)             Requested size: 448.13095pt x 138.83287pt.
 
-Underfull \hbox (badness 1412) in paragraph at lines 288--294
+Underfull \hbox (badness 1412) in paragraph at lines 287--293
 []\T1/lmr/m/n/12 Somit stand schnell ein Pro-jekt, dass
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 288--294
+Underfull \hbox (badness 4967) in paragraph at lines 287--293
 \T1/lmr/m/n/12 grund-le-gend als Gra-nu-lar Syn-the-si-zer
  []
 
 
-Underfull \hbox (badness 4792) in paragraph at lines 288--294
+Underfull \hbox (badness 4792) in paragraph at lines 287--293
 \T1/lmr/m/n/12 auf-ga-be, aus-zu-lo-ten, wel-che an-steu-er-
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 288--294
+Underfull \hbox (badness 2707) in paragraph at lines 287--293
 \T1/lmr/m/n/12 ba-ren Pa-ra-me-ter sich in Sun-Vox am
  []
 
 
-Underfull \hbox (badness 2426) in paragraph at lines 288--294
+Underfull \hbox (badness 2426) in paragraph at lines 287--293
 \T1/lmr/m/n/12 be-sten für die Be-die-nung an un-se-rer
  []
 
 
-Underfull \hbox (badness 2717) in paragraph at lines 288--294
+Underfull \hbox (badness 2717) in paragraph at lines 287--293
 \T1/lmr/m/n/12 den zur Aus-wahl, die teil-wei-se stark
  []
 
 
-Underfull \hbox (badness 2903) in paragraph at lines 288--294
+Underfull \hbox (badness 2903) in paragraph at lines 287--293
 \T1/lmr/m/n/12 Um es nicht zu kom-pli-ziert zu hal-
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 288--294
+Underfull \hbox (badness 1527) in paragraph at lines 287--293
 \T1/lmr/m/n/12 ten, da es oh-ne-hin mit ei-nem ge-wis-
  []
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 288--294
+Underfull \hbox (badness 4036) in paragraph at lines 287--293
 \T1/lmr/m/n/12 the-si-zer zu spie-len, wur-den am En-
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 288--294
+Underfull \hbox (badness 2205) in paragraph at lines 287--293
 \T1/lmr/m/n/12 de aber nur die wich-tig-sten Pa-ra-me-
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 288--294
+Underfull \hbox (badness 1259) in paragraph at lines 287--293
 \T1/lmr/m/n/12 tor-ti-on ge-mappt (letz-te-re wa-ren eben-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--294
+Underfull \hbox (badness 10000) in paragraph at lines 287--293
 
  []
 
 [10 <./sunvox_3.png> <./sunvox_2.png>]
-<sunvox_5.png, id=54, 377.91188pt x 248.42813pt>
+<sunvox_5.png, id=124, 377.91188pt x 248.42813pt>
 File: sunvox_5.png Graphic file (type png)
 <use sunvox_5.png>
-Package pdftex.def Info: sunvox_5.png  used on input line 298.
+Package pdftex.def Info: sunvox_5.png  used on input line 297.
 (pdftex.def)             Requested size: 291.28238pt x 191.47978pt.
+Class scrartcl Info: Workaround for not recommended usage of \\ or
+(scrartcl)           \newlinein caption text  on input line 298.
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--300
+Underfull \hbox (badness 10000) in paragraph at lines 294--299
 
  []
 
 
-Overfull \hbox (0.16515pt too wide) in paragraph at lines 302--303
+Overfull \hbox (0.16515pt too wide) in paragraph at lines 301--302
 \T1/lmr/m/n/12 Als Al-ter-na-ti-ve lässt sich
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 302--303
+Underfull \hbox (badness 3826) in paragraph at lines 301--302
 \T1/lmr/m/n/12 muss aber je-des Mal
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 302--303
+Underfull \hbox (badness 3713) in paragraph at lines 301--302
 \T1/lmr/m/n/12 macht wer-den, so-bald
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 302--303
+Underfull \hbox (badness 2556) in paragraph at lines 301--302
 \T1/lmr/m/n/12 ein neu-es Sam-ple ge-
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 302--303
+Underfull \hbox (badness 1122) in paragraph at lines 301--302
 \T1/lmr/m/n/12 Hard-wa-re steu-ern soll-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--313
+Underfull \hbox (badness 10000) in paragraph at lines 309--312
 
  []
 
 [11 <./sunvox_5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
 
  []
 
-<wokwi.png, id=59, 664.73344pt x 258.21469pt>
+<wokwi.png, id=131, 664.73344pt x 258.21469pt>
 File: wokwi.png Graphic file (type png)
 <use wokwi.png>
-Package pdftex.def Info: wokwi.png  used on input line 330.
+Package pdftex.def Info: wokwi.png  used on input line 329.
 (pdftex.def)             Requested size: 291.28238pt x 113.14989pt.
 
-Underfull \hbox (badness 2707) in paragraph at lines 334--340
-\T1/lmr/m/n/12 ste Schal-tung mit ei-
+Overfull \hbox (0.95389pt too wide) in paragraph at lines 333--339
+[]\T1/lmr/m/n/12 Anschlieÿend wur-de mit-
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 334--340
-\T1/lmr/m/n/12 ser dann um die MI-
+Underfull \hbox (badness 1292) in paragraph at lines 333--339
+\T1/lmr/m/n/12 tels ei-nes Bread-boards
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--340
+Underfull \hbox (badness 5533) in paragraph at lines 333--339
+\T1/lmr/m/n/12 mit ei-nem Dreh-reg-ler
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 333--339
+\T1/lmr/m/n/12 und ei-nem Schie-be-reg-
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 333--339
+\T1/lmr/m/n/12 ler auf-ge-baut und der
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 333--339
+\T1/lmr/m/n/12 Funktionalität. Hier-bei
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--339
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--340
+Underfull \hbox (badness 10000) in paragraph at lines 333--339
 
  []
 
 [12 <./wokwi.png>]
-<code_1.png, id=64, 667.74469pt x 633.11531pt>
+<code_1.png, id=138, 667.74469pt x 633.11531pt>
 File: code_1.png Graphic file (type png)
 <use code_1.png>
-Package pdftex.def Info: code_1.png  used on input line 345.
+Package pdftex.def Info: code_1.png  used on input line 344.
 (pdftex.def)             Requested size: 333.87152pt x 316.55687pt.
-<code_2.png, id=65, 353.06906pt x 140.77594pt>
+<code_2.png, id=139, 353.06906pt x 140.77594pt>
 File: code_2.png Graphic file (type png)
 <use code_2.png>
-Package pdftex.def Info: code_2.png  used on input line 351.
+Package pdftex.def Info: code_2.png  used on input line 350.
 (pdftex.def)             Requested size: 176.53409pt x 70.38779pt.
- [13 <./code_1.png> <./code_2.png>] [14]
-<hw_1.jpg, id=75, 706.13812pt x 616.55344pt>
-File: hw_1.jpg Graphic file (type jpg)
-<use hw_1.jpg>
-Package pdftex.def Info: hw_1.jpg  used on input line 368.
-(pdftex.def)             Requested size: 211.84306pt x 184.96745pt.
-<hw_2.png, id=76, 878.53218pt x 567.62062pt>
-File: hw_2.png Graphic file (type png)
-<use hw_2.png>
-Package pdftex.def Info: hw_2.png  used on input line 374.
-(pdftex.def)             Requested size: 263.56168pt x 170.28749pt.
-<hw_3.png, id=77, 481.04718pt x 407.27156pt>
-File: hw_3.png Graphic file (type png)
-<use hw_3.png>
-Package pdftex.def Info: hw_3.png  used on input line 382.
-(pdftex.def)             Requested size: 240.523pt x 203.63527pt.
+ [13 <./code_1.png> <./code_2.png>]
+<hw_4.jpg, id=149, 2746.26pt x 3661.68pt>
+File: hw_4.jpg Graphic file (type jpg)
+<use hw_4.jpg>
+Package pdftex.def Info: hw_4.jpg  used on input line 360.
+(pdftex.def)             Requested size: 165.80968pt x 221.03226pt.
+Class scrartcl Info: Workaround for not recommended usage of \\ or
+(scrartcl)           \newlinein caption text  on input line 361.
+<hw_5.jpg, id=150, 2746.26pt x 3661.68pt>
+File: hw_5.jpg Graphic file (type jpg)
+<use hw_5.jpg>
+Package pdftex.def Info: hw_5.jpg  used on input line 365.
+(pdftex.def)             Requested size: 168.0491pt x 224.0494pt.
+Class scrartcl Info: Workaround for not recommended usage of \\ or
+(scrartcl)           \newlinein caption text  on input line 366.
+<hw_6.jpg, id=151, 3661.68pt x 2746.26pt>
+File: hw_6.jpg Graphic file (type jpg)
+<use hw_6.jpg>
+Package pdftex.def Info: hw_6.jpg  used on input line 371.
+(pdftex.def)             Requested size: 224.06548pt x 168.03703pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--385
+Underfull \hbox (badness 10000) in paragraph at lines 357--374
 
  []
 
-[15 <./hw_1.jpg> <./hw_2.png>] [16 <./hw_3.png>]
-<td_1.jpg, id=86, 376.90813pt x 183.18437pt>
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 357--374
+[] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--374
+
+ []
+
+[14 <./hw_4.jpg> <./hw_5.jpg> <./hw_6.jpg>]
+<hw_1.jpg, id=159, 706.13812pt x 616.55344pt>
+File: hw_1.jpg Graphic file (type jpg)
+<use hw_1.jpg>
+Package pdftex.def Info: hw_1.jpg  used on input line 383.
+(pdftex.def)             Requested size: 190.45702pt x 166.2929pt.
+<hw_0.jpg, id=160, 1027.84pt x 1027.84pt>
+File: hw_0.jpg Graphic file (type jpg)
+<use hw_0.jpg>
+Package pdftex.def Info: hw_0.jpg  used on input line 388.
+(pdftex.def)             Requested size: 179.25305pt x 179.24734pt.
+<hw_2.png, id=161, 878.53218pt x 567.62062pt>
+File: hw_2.png Graphic file (type png)
+<use hw_2.png>
+Package pdftex.def Info: hw_2.png  used on input line 395.
+(pdftex.def)             Requested size: 219.6325pt x 141.9048pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--398
+
+ []
+
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 379--398
+[] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--398
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--398
+
+ []
+
+[15 <./hw_1.jpg> <./hw_0.jpg> <./hw_2.png>]
+<hw_3.png, id=170, 481.04718pt x 407.27156pt>
+File: hw_3.png Graphic file (type png)
+<use hw_3.png>
+Package pdftex.def Info: hw_3.png  used on input line 402.
+(pdftex.def)             Requested size: 240.523pt x 203.63527pt.
+ [16 <./hw_3.png>]
+<td_1.jpg, id=177, 376.90813pt x 183.18437pt>
 File: td_1.jpg Graphic file (type jpg)
 <use td_1.jpg>
-Package pdftex.def Info: td_1.jpg  used on input line 397.
+Package pdftex.def Info: td_1.jpg  used on input line 417.
 (pdftex.def)             Requested size: 313.69029pt x 152.45946pt.
 
-Underfull \hbox (badness 4229) in paragraph at lines 401--404
+Underfull \hbox (badness 4229) in paragraph at lines 421--424
 \T1/lmr/m/n/12 des ^^RCross^^P geht ein
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 401--404
+Underfull \hbox (badness 1237) in paragraph at lines 421--424
 \T1/lmr/m/n/12 schen den Vi-suals be-
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 401--404
+Underfull \hbox (badness 1270) in paragraph at lines 421--424
 \T1/lmr/m/n/12 nö-tigt wird. Am Aus-
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 401--404
+Underfull \hbox (badness 1565) in paragraph at lines 421--424
 \T1/lmr/m/n/12 den Über-gang gibt es
  []
 
 
-Overfull \hbox (1.28519pt too wide) in paragraph at lines 401--404
+Overfull \hbox (1.28519pt too wide) in paragraph at lines 421--424
 \T1/lmr/m/n/12 einen au-to-ma-ti-schen und
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--404
+Underfull \hbox (badness 10000) in paragraph at lines 421--424
 
  []
 
 [17 <./td_1.jpg>]
-Underfull \hbox (badness 1342) in paragraph at lines 412--414
+Underfull \hbox (badness 1342) in paragraph at lines 432--434
 []\T1/lmr/m/n/12 In die-sem Audio-Visualizer wird
  []
 
-<td_2.png, id=90, 115.9605pt x 108.405pt>
+<td_2.png, id=183, 115.9605pt x 108.405pt>
 File: td_2.png Graphic file (type png)
 <use td_2.png>
-Package pdftex.def Info: td_2.png  used on input line 418.
+Package pdftex.def Info: td_2.png  used on input line 438.
 (pdftex.def)             Requested size: 224.06548pt x 209.47836pt.
 
-Underfull \hbox (badness 2717) in paragraph at lines 424--426
+Underfull \hbox (badness 2717) in paragraph at lines 444--446
 []\T1/lmr/m/n/12 Eine Röh-re wird ver-formt und
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 424--426
+Underfull \hbox (badness 2310) in paragraph at lines 444--446
 \T1/lmr/m/n/12 durch ein Noise-TOP ge-schickt.
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 424--426
+Underfull \hbox (badness 1708) in paragraph at lines 444--446
 \T1/lmr/m/n/12 Qua-dra-ten ab-ge-bil-det. Das Noi-
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 424--426
+Underfull \hbox (badness 1803) in paragraph at lines 444--446
 \T1/lmr/m/n/12 se wird durch den Audio-Input
  []
 
 
-Underfull \hbox (badness 5417) in paragraph at lines 424--426
+Underfull \hbox (badness 5417) in paragraph at lines 444--446
 \T1/lmr/m/n/12 ver-än-dert, wo-durch die Audio-
  []
 
-<td_3.png, id=91, 126.4725pt x 111.033pt>
+<td_3.png, id=184, 126.4725pt x 111.033pt>
 File: td_3.png Graphic file (type png)
 <use td_3.png>
-Package pdftex.def Info: td_3.png  used on input line 430.
+Package pdftex.def Info: td_3.png  used on input line 450.
 (pdftex.def)             Requested size: 224.06548pt x 196.71643pt.
 
-Underfull \hbox (badness 1577) in paragraph at lines 439--441
+Underfull \hbox (badness 1577) in paragraph at lines 459--461
 []\T1/lmr/m/n/12 Hier wird ei-ne ver-form-te Ku-gel
  []
 
-<td_4.png, id=92, 123.516pt x 120.5595pt>
+<td_4.png, id=185, 123.516pt x 120.5595pt>
 File: td_4.png Graphic file (type png)
 <use td_4.png>
-Package pdftex.def Info: td_4.png  used on input line 445.
+Package pdftex.def Info: td_4.png  used on input line 465.
 (pdftex.def)             Requested size: 224.06548pt x 218.70113pt.
 
-Underfull \hbox (badness 1331) in paragraph at lines 451--453
+Underfull \hbox (badness 1331) in paragraph at lines 471--473
 []\T1/lmr/m/n/12 Dieses Vi-su-al ba-siert auf ei-nem
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 451--453
+Underfull \hbox (badness 1132) in paragraph at lines 471--473
 \T1/lmr/m/n/12 tur. Um den Ef-fekt zu ver-stär-
  []
 
-<td_6.jpg, id=93, 136.656pt x 114.318pt>
+<td_6.jpg, id=186, 136.656pt x 114.318pt>
 File: td_6.jpg Graphic file (type jpg)
 <use td_6.jpg>
-Package pdftex.def Info: td_6.jpg  used on input line 457.
+Package pdftex.def Info: td_6.jpg  used on input line 477.
 (pdftex.def)             Requested size: 224.06548pt x 187.45828pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--460
+Underfull \hbox (badness 10000) in paragraph at lines 430--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--460
+Underfull \hbox (badness 10000) in paragraph at lines 430--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--460
+Underfull \hbox (badness 10000) in paragraph at lines 430--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--460
+Underfull \hbox (badness 10000) in paragraph at lines 430--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--460
+Underfull \hbox (badness 10000) in paragraph at lines 430--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--460
+Underfull \hbox (badness 10000) in paragraph at lines 430--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--460
+Underfull \hbox (badness 10000) in paragraph at lines 430--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--460
+Underfull \hbox (badness 10000) in paragraph at lines 430--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--460
+Underfull \hbox (badness 10000) in paragraph at lines 430--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--460
+Underfull \hbox (badness 10000) in paragraph at lines 430--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--460
+Underfull \hbox (badness 10000) in paragraph at lines 430--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--460
+Underfull \hbox (badness 10000) in paragraph at lines 430--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--460
+Underfull \hbox (badness 10000) in paragraph at lines 430--480
 
  []
 
 [18 <./td_2.png> <./td_3.png>] [19 <./td_4.png> <./td_6.jpg>]
-<td_5.png, id=104, 124.83pt x 110.7045pt>
+<td_5.png, id=203, 124.83pt x 110.7045pt>
 File: td_5.png Graphic file (type png)
 <use td_5.png>
-Package pdftex.def Info: td_5.png  used on input line 464.
+Package pdftex.def Info: td_5.png  used on input line 484.
 (pdftex.def)             Requested size: 268.8813pt x 238.48807pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--466
+Underfull \hbox (badness 10000) in paragraph at lines 481--486
 \T1/lmr/bx/n/12 Donut
  []
 
 
-Overfull \hbox (5.7008pt too wide) in paragraph at lines 468--469
+Overfull \hbox (5.7008pt too wide) in paragraph at lines 488--489
 \T1/lmr/m/n/12 Für den Hin-ter-grund wird
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 468--469
+Underfull \hbox (badness 4686) in paragraph at lines 488--489
 \T1/lmr/m/n/12 se^^P Tops ei-ne Wol-ke
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 468--469
+Underfull \hbox (badness 1902) in paragraph at lines 488--489
 \T1/lmr/m/n/12 aus vie-len Ku-geln er-
  []
 
 
-Overfull \hbox (16.80344pt too wide) in paragraph at lines 472--476
+Overfull \hbox (16.80344pt too wide) in paragraph at lines 492--496
 \T1/lmr/m/n/12 Damit Touch-Designer das Au-dio aus Sun-vox emp-fan-gen kann, mu
 ss ent-we-der ein Loopback-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--476
+Underfull \hbox (badness 10000) in paragraph at lines 492--496
 
  []
 
 [20 <./td_5.png>] [21]
-\tf@thm=\write4
-\openout4 = `Dokumentation.thm'.
+Underfull \hbox (badness 10000) in paragraph at lines 525--574
 
- [22] (Dokumentation.aux)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--574
+
+ []
+
+[22]
+\tf@thm=\write5
+\openout5 = `Dokumentation.thm'.
+
+ [23{C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}
+{C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
+] (Dokumentation.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-23>
  ***********
+Package rerunfilecheck Info: File `Dokumentation.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10418 strings out of 474718
- 221599 string characters out of 5748456
- 1937036 words of memory out of 5000000
- 32325 multiletter control sequences out of 15000+600000
+ 17755 strings out of 474718
+ 335763 string characters out of 5748456
+ 1938036 words of memory out of 5000000
+ 39472 multiletter control sequences out of 15000+600000
  608477 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,19n,107p,10910b,494s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,19n,107p,10910b,526s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
+b><C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pf
 b><C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
 ><C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
-<C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb>
-<C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pf
-b>
-Output written on Dokumentation.pdf (22 pages, 2693259 bytes).
+<C:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C
+:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C
+:/Users/denni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
+
+Output written on Dokumentation.pdf (23 pages, 13397233 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 74 named destinations out of 1000 (max. 500000)
+ 326 words of extra memory for PDF output out of 10000 (max. 10000000)
 

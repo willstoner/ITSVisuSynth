@@ -18,7 +18,7 @@ granularem Synthesizer
 }
 
 %\author{}
-\date{22. Februar 2024}
+\date{23. Februar 2024}
 
 % Kopf- und Fußzeilen
 
@@ -28,7 +28,7 @@ granularem Synthesizer
 \clearpairofpagestyles
 
 
-\ihead{20.02.2024}
+\ihead{23.02.2024}
 \chead{IT Systeme}
 \ohead{Dokumentation: visueller Synthesizer}
 \ifoot{}
@@ -114,6 +114,7 @@ granularem Synthesizer
 \usepackage[table]{xcolor}% http://ctan.org/pkg/xcolor
 \usepackage{lipsum}
 \usepackage{wrapfig}
+\usepackage{hyperref}
 
 
 
@@ -162,12 +163,10 @@ granularem Synthesizer
 
 \section{Einleitung}
 
-
-Das Projekt „VisuSynth“ des Kurses IT-Systeme ermöglicht eine Interaktion zwischen Klängen, Bildern und der eigenen Kreativität zu erschaffen.\\
-Mit einer Kombination aus Software und Hardware sollte eine Möglichkeit geschaffen werden, Töne live aufzunehmen, zu bearbeiten und in visuelle Bewegungen umzuwandeln.
+Das Projekt „VisuSynth“ des Kurses IT-Systeme ermöglicht es, eine Interaktion zwischen
+Klängen, Bildern und der eigenen Kreativität zu erschaffen. Dabei können Töne live aufgenommen, bearbeitet und in visuelle Bewegungen umgewandelt werden.
 \\\\
-Das Ziel war es, dass auch Unerfahrene im Bereich Audio-Synthese die Möglichkeit haben, durch eine verständliche Bedienung, das Projekt zu verstehen, zu bedienen und eigene kreative Ideen entwickeln zu können.
-
+Ziel war es, das Projekt durch eine verständliche Bedienung auch für Unerfahrene im Bereich Audiosynthese verständlich und bedienbar zu machen. Außerdem sollten die Nutzer ermutigt werden, eigene Ideen zu entwickeln.
 
 \section{Grundlagen}
 
@@ -238,14 +237,14 @@ Eine Gruppeneinteilung half frühzeitig, um eine klare Arbeitsaufteilung unterei
 
 \subsection{Zeitplanung}
 
-Für das Management und die Zeiteinteilung wurden einige Ideen aus Scrum genutzt. So hat das Team sich beispielsweise einmal die Woche zu einem Meeting getroffen und darin den aktuellen Stand, die aktuellen Probleme und eventuelle Lösungen zusammengetragen.
+Für das Management und die Zeiteinteilung wurden einige Ideen aus Scrum genutzt. So traf das Team sich beispielsweise einmal die Woche zu einem Meeting, um den aktuellen Fortschritt, bestehende Herausforderungen sowie potenzielle Lösungsansätze zu erfassen.
 \begin{wrapfigure}{r}{0.7\textwidth}
   \centering
   \includegraphics[width=0.6\textwidth]{road1}
   \caption{Auszug der Roadmap}
 \end{wrapfigure}
 
-\noindent Zudem wurde eine Roadmap erstellt, um den Zeitrahmen abzubilden, den jedes Team zur Verfügung hat. Wichtig war es genug Puffer einzuplanen, da es erfahrungsgemäß immer zu Verzögerungen kommen kann oder Teile des Projektes nicht so wie geplant laufen.
+\noindent Des Weiteren wurde eine Roadmap erstellt, die den zeitlichen Rahmen für jedes Team visualisierte. Dabei war es entscheidend, ausreichend Pufferzeiten einzuplanen, da in der Praxis Verzögerungen unvermeidlich sind oder bestimmte Projektabschnitte nicht wie geplant verlaufen könnten.
 \\\\
 
 \newpage
@@ -282,7 +281,7 @@ SunVox bietet mit dem Sampler die Möglichkeit, die Waveform des Samples anzeige
 \begin{wrapfigure}{r}{0.5\textwidth}
   \centering
   \includegraphics[width=0.45\textwidth]{sunvox_3}
-  \caption{Parameter des Granulator Moduls}
+  \caption{Parameter des\\Granulator Moduls}
 \end{wrapfigure}
 
 \noindent Somit stand schnell ein Projekt, dass grundlegend als Granular Synthesizer funktioniert. Von da an war die Hauptaufgabe, auszuloten, welche ansteuerbaren Parameter sich in SunVox am besten für die Bedienung an unserer Hardware eignen. Viele Optionen standen zur Auswahl, die teilweise stark den Sound beeinflussten, wie zum Beispiel die Randomisierung der Tonhöhe. Um es nicht zu kompliziert zu halten, da es ohnehin mit einem gewissen Anspruch verbunden ist, den Synthesizer zu spielen, wurden am Ende aber nur die wichtigsten Parameter Position, Loop Frequency, Position Spray sowie die, die den Sound nochmal abrunden, Reverb, Delay und Distortion gemappt (letztere waren ebenfalls direkt als Modul in SunVox vorhanden)
@@ -296,25 +295,25 @@ SunVox bietet mit dem Sampler die Möglichkeit, die Waveform des Samples anzeige
 \begin{wrapfigure}{r}{0.7\textwidth}
   \centering
   \includegraphics[width=0.65\textwidth]{sunvox_5}
-  \caption{Manuelle Einstellung der Hüllkurve eines Samples}
+  \caption{Manuelle Einstellung der Hüllkurve eines\\Samples}
 \end{wrapfigure}
 
 \noindent Als Alternative lässt sich die Hüllkurve des Samples zwar direkt im Sampler selbst einstellen, dies muss aber jedes Mal aufs Neue manuell gemacht werden, sobald ein neues Sample geladen wird. Das wurde dann aber entsprechend in Kauf genommen und es blieb bei den genannten Parametern, die die Hardware steuern sollte.\\
 
 \subsection{Hardware}
 
-Im Bereich der Hardware-Umsetzung waren die Rahmenbedingungen, durch die Ansteuerung des Synthesizers bestimmt. Demnach sollten Drehregler, Schieberegler und Buttons zur Verfügung stehen, die die Effekte und Mechanismen des Gerätes bedienbar machen.
+Im Bereich der Hardware-Umsetzung wurden die Rahmenbedingungen durch die Ansteuerung des Synthesizers festgelegt. Dabei waren Drehregler, Schieberegler und Buttons vorgesehen, um die Effekte und Mechanismen des Gerätes bedienbar zu machen.
 
 \subsubsection{Ausgangssituation und Anforderungen}
 
-Im Laufe der ersten Wochen, der Entwicklungsphase auf dem Miroboard, wurde klar, dass der Synthesizer MIDI Daten ausgeben sollte. Dies ist vorallem deshalb sinnvoll, da sowohl SunVox als auch Touch Designer dieses Format gut nutzen können.
+Während der ersten Wochen der Entwicklungsphase auf dem Miroboard wurde entschieden, dass der Synthesizer MIDI-Daten ausgeben sollte. Dies sei besonders sinnvoll, da sowohl SunVox als auch Touch Designer dieses Format effektiv nutzen können.
 \\\\
-Die Wahl des Mikrocontrollers fiel zunächst auf den ESP32, da er günstig ist und man davon ausging, er würde für alle Funktionen ausreichen. Später stellte sich heraus, dass der ESP über eine USB-to-UART Schnittstelle mit dem Computer verbunden wird. Er bot also keine native, vollwertige USB Schnittstelle, die man benötigte um MIDI Daten zu verarbeiten. Man wich dann auf den Teensy 4.1 aus.
+Ursprünglich fiel die Wahl des Mikrocontrollers auf den ESP32 aufgrund seiner kostengünstigen Verfügbarkeit und der Annahme, dass er für sämtliche Funktionen ausreichen würde. Allerdings stellte sich später heraus, dass der ESP über eine USB-to-UART-Schnittstelle mit dem Computer verbunden wurde. Das bedeutete, dass er keine native, vollwertige USB-Schnittstelle bot, die für die Verarbeitung von MIDI-Daten erforderlich war. Daher wurde auf den Teensy 4.1 ausgewichen.
 \newpage
 Bereitgestellt wurden dann:
 \begin{itemize}
-  \item mehrere (Dreh-) Potentiometer
-  \item ein (Schiebe-) Potentiometer
+  \item mehrere Drehpotentiometer
+  \item ein Schiebepotentiometer
   \item ein einfacher Button
   \item eine 18x24 Lochrasterplatine
   \item Buchsenleisten und Steckverbinder (Jumper)
@@ -323,7 +322,7 @@ Bereitgestellt wurden dann:
 
 \subsubsection{Proof of Concept (mit Code)}
 
-Zunächst wurde ein einfacher C++ Programmcode in der Browseranwendung Wokwi geschrieben und dort mit einigen Reglern simuliert.\\
+Zunächst entstand ein einfacher C++-Programmcode in der Browseranwendung Wokwi, der dort durch die Simulation mittels einiger Regler getestet wurde.\\
 
 \begin{wrapfigure}{r}{0.7\textwidth}
   \centering
@@ -331,15 +330,15 @@ Zunächst wurde ein einfacher C++ Programmcode in der Browseranwendung Wokwi ges
   \caption{Simulation in Wokwi}
 \end{wrapfigure}
 
-\noindent Dann wurde mithilfe eines Breadboards eine erste Schaltung mit einem Drehregler und einem Schieberegler aufgebaut und der Code in die Arduino IDE übertragen.
-\noindent Dort wurde dieser dann um die MIDI Funktionalität erweitert. Dazu wurden die Bibliotheken USB-MIDI und MIDI Library von dem Autor lathoub und die Bibliothek MIDIUSB von Gary Grewal importiert. Diese sind direkt über die IDE enthalten und nicht extern.
+\noindent Anschließend wurde mittels eines Breadboards eine initielle Schaltung mit einem Drehregler und einem Schieberegler aufgebaut und der Programmcode wurde in die Arduino IDE übertragen.
+\noindent In diesem Schritt erfolgte die Erweiterung des Codes um die MIDI-Funktionalität. Hierbei wurden die Bibliotheken USB-MIDI und MIDI Library von lathoub sowie die Bibliothek MIDIUSB von Gary Grewal importiert. Diese sind direkt in die IDE integriert und erforderten keine externe Einbindung.
 \\\\
-Dann wurde der Code getestet und mit serieller Ausgabe überprüft. Der Teensy wurde zu diesem Zeitpunkt vom Rechner als MIDI Controller erkannt.
+Der Code wurde daraufhin getestet und mittels serieller Ausgabe überprüft.
 \\\\
-Die Potentiometer wurden also als analoge Signale gelesen und ihre Werte als MIDI Daten weitergegeben. Wobei der Mikrocontroller dann als externer MIDI Controller verwendet wurde.
+Die Potentiometer wurden als analoge Signale ausgelesen und ihre Werte wurden als MIDI-Daten übermittelt. Der Mikrocontroller fungierte somit als externer MIDI-Controller.
 
 \newpage
-\noindent Hier ein Codeausschnitt, der für genau ein Potentiometer funktioniert. Er kann nach belieben erweitert werden.
+\noindent Hier ist ein Codeausschnitt, der für ein einzelnes Potentiometer funktioniert. Er kann nach Bedarf erweitert werden.
 \begin{figure}[h]
 \centering
   \includegraphics[scale=0.5]{code_1}
@@ -355,33 +354,54 @@ Für den Synthesizer wurden final insgesamt acht Inputs genutzt.
 
 \subsubsection{Aufbau}
 
-ddd
+Die grundlegende Struktur des Aufbaus war sehr einfach. Es gab jeweils acht analoge Eingänge, die alle mit 3,3V und Masse verbunden waren (Abb. 12, obere zwei Strecken). Jeder der acht Widerstände hatte einen eigenen Signaleingangspin am Mikrocontroller (Abb. 12, einzelne Strecken, manche in L-Form)..\\\\
+\begin{minipage}[t]{0.5\textwidth}
+\centering
+\includegraphics[width=0.74\textwidth]{hw_4}
+\captionof{figure}{Lochrasterplatine mit\\Kabelverbindungen}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\centering
+\includegraphics[width=0.75\textwidth]{hw_5}
+\captionof{figure}{fertgie Verkabelung mit\\Reglern und Teensy}
+\end{minipage}\\\\
+Um das System modular zu halten, wurden alle Anschlüsse mit Jumperkabeln (Female) realisiert und der Mikrocontroller selbst mit Buchsenleisten auf die Lochrasterplatine gelötet.\\
+\begin{figure}[h]
+\centering
+  \includegraphics[width=0.5\textwidth]{hw_6}
+  \caption{Rückseite der Gehäuseblende mit Reglern}
+\end{figure}
 
 \newpage
 
 \subsubsection{Gehäuse}
 
-\noindent Nachdem nun alles Verkabelt ist, wurde es Zeit für ein passendes Gehäuse. Im Gespräch waren eine Holzkonstruktion oder ein 3D-Druck. Es wurde sich jedoch entschieden, mit dem 3D-Drucker zu arbeiten, weil es praktischer ist. Die erste Skizze ähnelte der Vision unseres Projekts hinsichtlich des Aussehens.\\
-Um den Synthesizer-Look zu erreichen wurden die sechs Drehregler  nebeneinander auf dem oberen Teil des Gehäuses angeordnet. Darunter der Schieberegler und der Button. Das erste Gehäuse sollte dann eine Länge, Breite und Höhe von (19 x 9 x 5) cm haben.\\
+\noindent Nach erfolgreicher Verkabelung wurde ein passendes Gehäuse gestaltet. Dabei wurden eine Holzkonstruktion und der 3D-Druck in Betracht gezogen, wobei die Entscheidung aufgrund der Praktikabilität auf letzteren fiel. Die erste Skizze orientierte sich an der Vision des Projekts. Hinsichtlich des Erscheinungsbildes ähnelten sie den KI generierten.\\
+Um den gewünschten Synthesizer-Look zu realisieren, wurden die sechs Drehregler nebenläufig auf dem oberen Teil des Gehäuses angeordnet, gefolgt vom Schieberegler und dem Button darunter. Das erste Gehäuse hatte dann eine Länge, Breite und Höhe von (19 x 9 x 5) cm.\\\\
+\begin{minipage}[t]{0.5\textwidth}
+\centering
+\includegraphics[width=0.85\textwidth]{hw_1}
+\captionof{figure}{erste Skizze des Gehäuses}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\centering
+\includegraphics[width=0.8\textwidth]{hw_0}
+\captionof{figure}{KI generierte Vision aus dem Konzept}
+\end{minipage}\\
+\\\\
+Für die Modellierung kam die Software Fusion360 von AutoDesk zum Einsatz, während die druckereigene Software CraftWare Pro zur Generierung des G-Codes verwendet wurde.\\
 \begin{figure}[h]
 \centering
-  \includegraphics[scale=0.3]{hw_1}
-  \caption{Erster Entwurf des Gehäuses}
-\end{figure}\\
-Zum Modellieren haben wir die Software Fusion360 von AutoDesk genutzt und zum erzeugen des G-Code die Drucker-eigene Software CraftWare Pro.\\
-\begin{figure}[h]
-\centering
-  \includegraphics[scale=0.3]{hw_2}
+  \includegraphics[scale=0.25]{hw_2}
   \caption{3D Modell des Gehäuses in Fusion360}
-\end{figure}\\
-Der Teensy liegt in einer Fassung im Gehäuse ungefähr an der Stelle wo der Button ist.\\
-Die Hälse der Drehregler konnte man durch die Blende schieben und dann mit einer Mutter auf der anderen Seite festschrauben. Ähnlich konnte auch der Schieberegler befestigt werden.\\
-Einzig die Blende mit dem unteren Teil des Gehäuses zu verbinden, war etwas aufwendiger. An dieser Stelle wurden dann zwei Gewindeeinsätze heiß gemacht und in das Gehäuse bestehend aus PLA Filament geschmolzen.\\
+\end{figure}
+\newpage
+\noindent Der Teensy fand seinen Platz in einer Fassung im Gehäuse, etwa dort, wo sich der Button befindet. Die Hälse der Drehregler ließen sich durch die Blende schieben und dann auf der gegenüberliegenden Seite mit einer Mutter fixieren. Ebenso wurde der Schieberegler befestigt. Die Verbindung der Blende mit dem unteren Teil des Gehäuses gestaltete sich als aufwendiger. Hier wurden zwei Gewindeeinsätze erhitzt und in das Gehäuse aus PLA-Filament geschmolzen und verschraubt.\\
 \begin{figure}[h]
 \centering
   \includegraphics[scale=0.5]{hw_3}
   \caption{Finalisierter Controller für den Synthesizer}
-\end{figure}\\
+\end{figure}
 
 \newpage
 
@@ -501,5 +521,56 @@ Trotz der Tatsache, dass man mit dem Ergebnis zufrieden sein kann, gibt es einig
 \end{itemize}
 
 \section{Quellenverzeichnis}
+
+\textbf{Grundlagen}
+\\\\
+Native Instruments (2023): Granular synthesis: a beginner’s guide.\\
+URL: \href{https://blog.native-instruments.com/granular-synthesis/}{https://blog.native-instruments.com/granular-synthesis/}
+\\\\
+Opie, Tallaine (1999-2023): Granular Synthesis Resource Site.\\
+URL: \href{http://www.granularsynthesis.com/guide.php}{http://www.granularsynthesis.com/guide.php}
+\\\\
+Nicole (2022): A Brief History Of Synthesizers.\\
+URL: \href{https://www.hi5electronics.co.uk/a-brief-history-of-synthesizers/}{https://www.hi5electronics.co.uk/a-brief-history-of-synthesizers/}
+\\\\
+Meierhans, Hermann Josef (2022): Wie liest man MIDI-Codes? Einfach erklärt!\\
+URL: \href{https://www.amazona.de/workshop-das-midi-datenformat-einfach-erklaert/}{https://www.amazona.de/workshop-das-midi-datenformat-einfach-erklaert/}
+\\\\
+\textbf{SunVox}
+\\\\
+Zolotov, Alexander (2023): SunVox User Manual.\\
+URL: \href{https://warmplace.ru/soft/sunvox/manual.php}{https://warmplace.ru/soft/sunvox/manual.php}
+\\\\
+\textbf{Touch Designer}
+\\\\
+Olea, Pao (2023): Fluffy material.\\
+URL: \href{https://www.youtube.com/watch?v=rcrW-A27VYo}{https://www.youtube.com/watch?v=rcrW-A27VYo}
+\\\\
+Acrylicode (2023): Audio-reactive psychedelic visuals.\\
+URL: \href{https://www.youtube.com/watch?v=Mt2hwb5cngA}{https://www.youtube.com/watch?v=Mt2hwb5cngA}
+\\\\
+Smih, Jeffrey (2011): transition between projects in performance.\\
+URL: \href{https://forum.derivative.ca/t/transition-between-projects-in-performance/2573}{https://forum.derivative.ca/t/transition-between-projects-in-performance/2573}
+\\\\
+Derivative Inc. (2019): TouchDesigner User Guide.\\
+URL: \href{https://docs.derivative.ca/}{https://docs.derivative.ca/}
+\\\\
+Acrylicode (2023): Audio reactive Galaxy.\\
+URL: \href{https://www.youtube.com/watch?v=J7s7aK2M3mw}{https://www.youtube.com/watch?v=J7s7aK2M3mw}
+\\\\
+Steenhoff, Daniel (2023): Audioreactive Fluid Grid VISUAL.\\
+URL: \href{https://www.youtube.com/watch?v=Hu_81_WOlCo}{$\mathrm{https://www.youtube.com/watch?v=Hu_81_WOlCo}$}
+\\\\
+\textbf{Zusätzliche Software}
+\\\\
+O'Connell, Jamie (1997-2018): MIDI-OX.\\
+URL: \href{http://www.midiox.com/}{http://www.midiox.com/}
+\\\\
+Erichsen, Tobias (2010-2022): loopMIDI.\\
+URL: \href{https://www.tobias-erichsen.de/software/loopmidi.html}{https://www.tobias-erichsen.de/software/loopmidi.html}
+\\\\
+Burel, Vincent (1999-2023): VB-Cable.\\
+URL: \href{https://vb-audio.com/Cable/}{https://vb-audio.com/Cable/}
+
 
 \end{document}

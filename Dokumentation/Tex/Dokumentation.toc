@@ -1,27 +1,27 @@
 \babel@toc {german}{}\relax 
-\contentsline {section}{\numberline {1}Einleitung}{3}{}%
-\contentsline {section}{\numberline {2}Grundlagen}{3}{}%
-\contentsline {subsection}{\numberline {2.1}Granular-Synthese}{3}{}%
-\contentsline {subsection}{\numberline {2.2}Umsetzung}{4}{}%
-\contentsline {subsection}{\numberline {2.3}MIDI}{4}{}%
-\contentsline {section}{\numberline {3}Konzeption}{5}{}%
-\contentsline {section}{\numberline {4}Projektdurchführung}{7}{}%
-\contentsline {subsection}{\numberline {4.1}Zeitplanung}{7}{}%
-\contentsline {subsection}{\numberline {4.2}Software}{8}{}%
-\contentsline {subsubsection}{\numberline {4.2.1}SunVox Implementierung}{8}{}%
-\contentsline {subsection}{\numberline {4.3}Hardware}{11}{}%
-\contentsline {subsubsection}{\numberline {4.3.1}Ausgangssituation und Anforderungen}{11}{}%
-\contentsline {subsubsection}{\numberline {4.3.2}Proof of Concept (mit Code)}{12}{}%
-\contentsline {subsubsection}{\numberline {4.3.3}Aufbau}{14}{}%
-\contentsline {subsubsection}{\numberline {4.3.4}Gehäuse}{15}{}%
-\contentsline {subsection}{\numberline {4.4}Touch Designer}{17}{}%
-\contentsline {subsubsection}{\numberline {4.4.1}Gesamtstruktur}{17}{}%
-\contentsline {subsubsection}{\numberline {4.4.2}Visuals}{18}{}%
-\contentsline {subsection}{\numberline {4.5}Zusätzliche Software zum Verbinden von SunVox und Touch Designer}{20}{}%
-\contentsline {section}{\numberline {5}Fazit}{21}{}%
-\contentsline {subsection}{\numberline {5.1}Zusammenfassung}{21}{}%
-\contentsline {subsubsection}{\numberline {5.1.1}SunVox}{21}{}%
-\contentsline {subsubsection}{\numberline {5.1.2}Touch Designer}{21}{}%
-\contentsline {subsection}{\numberline {5.2}Ausblick}{21}{}%
-\contentsline {section}{\numberline {6}Quellenverzeichnis}{22}{}%
+\contentsline {section}{\numberline {1}Einleitung}{3}{section.1}%
+\contentsline {section}{\numberline {2}Grundlagen}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Granular-Synthese}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Umsetzung}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}MIDI}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Konzeption}{5}{section.3}%
+\contentsline {section}{\numberline {4}Projektdurchführung}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Zeitplanung}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Software}{8}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}SunVox Implementierung}{8}{subsubsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.3}Hardware}{11}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Ausgangssituation und Anforderungen}{11}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Proof of Concept (mit Code)}{12}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Aufbau}{14}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}Gehäuse}{15}{subsubsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.4}Touch Designer}{17}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Gesamtstruktur}{17}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Visuals}{18}{subsubsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.5}Zusätzliche Software zum Verbinden von SunVox und Touch Designer}{20}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Fazit}{21}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Zusammenfassung}{21}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}SunVox}{21}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Touch Designer}{21}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.2}Ausblick}{21}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Quellenverzeichnis}{22}{section.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
